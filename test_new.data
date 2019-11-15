@@ -1,0 +1,162 @@
+﻿
+RUNSPEC
+
+skip
+params
+n_cell=40 
+OUTTXTPEBIGRID
+grefine
+nrefine=2
+mrefine=3
+--srefine=1
+NATIVE_OUTPUT
+FRAC_SIMP=1
+VERT_GRP_GEOM
+FRAC_SIMP=5
+ECLLIN
+/
+
+PEBIGRID
+/
+
+
+endskip
+
+--==============================================================
+DIMENS
+1 1 1/ 
+
+
+OIL
+WATER
+
+
+EQLDIMS
+    1  100   10    1    1 /
+
+TABDIMS
+    1    1   101   300    1   300 6* 1 /
+
+WELLDIMS
+    2    10    1    2 /
+
+
+START
+  01 'JAN' 2000  /
+
+
+FMTOUT
+
+FMTIN
+
+UNIFOUT
+
+UNIFIN
+
+GRID    
+
+
+skip
+
+BORDER
+2000 -2000
+2000 2000
+-2000 2000
+-2000 -2000
+/
+
+
+INCLUDE
+--'layers.txt'
+'layers.txt'
+/
+
+endskip
+
+
+INCLUDE
+'props.txt'
+/
+
+
+
+
+
+PROPS
+--==============================================================
+
+SWOF
+0 0 1 0
+1 1 0 0
+/
+
+
+PVDO
+165 1.5173 1.0
+308 1.477 1.0 /
+
+
+DENSITY
+800 1000 1 /
+
+
+ROCK
+308        0.000435  / -- сжимаемость породы
+
+PVTW
+200.961 1.03301 4.49843e-5 0.294823 0 /
+
+
+
+SOLUTION
+--==============================================================
+PRESSURE
+300 /
+
+SWAT
+0 /
+
+
+
+
+SUMMARY
+--==============================================================
+ALL 
+WBHP 
+/
+
+
+SCHEDULE
+--==============================================================
+RPTSCHED
+PRESSURE SWAT SGAS PERMX
+/ 
+
+WELSPECS
+  	'DESIGN' 'G'   5 5    1* 'OIL'  /
+/
+
+INCLUDE
+'fractures_pebi.txt'
+/
+
+BUILDGR
+/
+
+COMPDAT
+ 'DESIGN' 1597 1* 1 1 'OPEN' 0 -1   0.2 1* /  
+/  
+
+
+WCONPROD
+   	'DESIGN' 'OPEN' 'BHP' 3* 5000 1*  150/
+/
+
+
+TSTEP
+1*200
+/
+
+
+
+end

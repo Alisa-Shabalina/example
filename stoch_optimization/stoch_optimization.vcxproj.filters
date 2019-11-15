@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\stoch_optimization\src\ObjectiveMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\stoch_optimization\src\StochOptimization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\stoch_optimization\src\pso.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\stoch_optimization\src\snes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\stoch_optimization\src\xnes_math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\stoch_optimization\include\ObjectiveMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\stoch_optimization\include\StochOptimization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\stoch_optimization\include\pso.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\stoch_optimization\include\snes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\stoch_optimization\include\xnes_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\stoch_optimization\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DC1BDBFC-0A0E-3A15-82AC-18A17E681F1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8EAF5BAB-D01D-3BEF-A50A-84DDBCB425D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

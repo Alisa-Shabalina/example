@@ -1,0 +1,35 @@
+{
+	"RealValues" : [
+		{
+			"Name" : "net pressure",
+			"Value" : 4774636.65
+		},
+		
+		{
+			"Name" : "fluid efficiency",
+			"Value" : 0.432614
+		},
+		
+		{
+			"Name" : "shut-in time",
+			"Value" : 1459.2
+		},
+		
+		{
+			"Name" : "fracture length",
+			"Value" : 150
+		}
+	],
+	
+	"Restrictions" : [
+		{
+			"Name" : "TVD top",
+			"Value" : 2020
+		},
+		
+		{
+			"Name" : "TVD bottom",
+			"Value" : 2095
+		}
+	]
+}

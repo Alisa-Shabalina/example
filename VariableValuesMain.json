@@ -1,0 +1,63 @@
+{
+  "VariableValue": [
+
+    {
+      "ValueName": "STRESS_MIN",
+      "VaryType": "min_max_values",
+      "min": [ 2.634e+7, 2.938e+7, 1 ],
+      "max": [ 3.496e+7, 3.8e+7, 1 ]
+    },
+    
+    {
+      "ValueName": "POISSON_RATIO",
+      "VaryType": "min_max_values",
+      "min": [ 0.1, 0.15, 1 ],
+      "max": [ 0.4, 0.5, 1 ]
+    },
+    
+    {
+      "ValueName": "YOUNG_MODULUS",
+      "VaryType": "min_max_values",
+      "min": [ 26e9, 35e9, 1 ],
+      "max": [ 36e9, 45e9, 1 ]
+    },
+    
+    {
+      "ValueName": "FLUID_LOSS",
+      "VaryType": "coef_lin_trans",
+      "k": [ 0.01, 2, 1 ],
+      "b": [ 0, 0, 0 ]
+    },
+
+	{
+      "ValueName": "TIME",
+      "VaryType": "coef_lin_trans",
+      "k": [ 0.01, 2, 1 ],
+      "b": [ 0, 0, 0 ],
+	  "Relation": "SLURRY_RATE"
+    },
+	  
+	{
+      "ValueName": "SLURRY_RATE",
+      "VaryType": "coef_lin_trans",
+      "k": [ 0.01, 2, 1 ],
+      "b": [ 0, 0, 0 ],
+	  "Relation": "TIME"
+    },
+	
+	{
+      "ValueName": "SLURRY_VOLUME",
+      "VaryType": "coef_lin_trans",
+      "k": [ 0.01, 2, 1 ],
+      "b": [ 0, 0, 0 ],
+	  "Relation": "TIME"
+    },
+	
+	{
+      "ValueName": "PROPANT_CONCENTRATION",
+      "VaryType": "coef_lin_trans",
+      "k": [ 0.01, 2, 1 ],
+      "b": [ 0, 0, 0 ]
+    },
+  ]
+}
