@@ -273,3 +273,10 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+
+
+*.vcxproj
+*.filtres
+*.sln
+1.data
+2.data
