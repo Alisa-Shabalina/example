@@ -276,3 +276,5 @@ _deps
 *.vcxproj
 *.filtres
 *.sln
+1.data
+2.data
