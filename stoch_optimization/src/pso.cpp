@@ -204,7 +204,7 @@ namespace stochopt {
 				}
 			}
 
-			costGraph.push_back(-costBestSolution);
+			costGraph.push_back(costBestSolution);
 			xCostGraph.push_back(xBestSolution);
 			callsGraph.push_back(calls);
 			if (costGraph.size() >= 3) {

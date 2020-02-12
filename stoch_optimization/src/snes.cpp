@@ -179,13 +179,29 @@ namespace stochopt {
 			}
 			DisplayInRealBords(xBestSolution);
 
-			xCostGraph.push_back(xBestSolution);
 
 			costBestSolution = costObject->getCost(xBestSolution);
+			if (!costGraph.empty()) {
+				if (costBestSolution > costGraph.back()) {
+					xBestSolution = xCostGraph.back();
+					costBestSolution = costGraph.back();
+				}
+			}
+
+			xCostGraph.push_back(xBestSolution);
 			costGraph.push_back(costBestSolution);
-			if (costGraph.size() >= 3) {
-				auto it = std::next(costGraph.begin(), 2 * costGraph.size() / 3);
-				double residual = std::abs(costGraph.back() - *it);
+
+			std::cout << "Solution vector: " << '\n';
+			for (auto s : xBestSolution) {
+				std::cout << s << " ";
+			}
+			//std::cout << '\n';
+			std::cout << "Cost at solution vector: " << costBestSolution << '\n';
+
+			size_t size = costGraph.size();
+			if (size > 2) {
+				double residual = std::abs(costGraph[size - 1] - costGraph[size - 2]) / 
+					std::abs(costGraph[size - 2]);
 				residuals.push_back(std::move(residual));
 			}
 			++calls;

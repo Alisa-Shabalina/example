@@ -1,0 +1,3262 @@
+Program was built at Apr 11 2019 18:03:46
+Release_x64. Build revision number: 2310
+Input file name: C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\exe_files\pebi\1.data
+lex: RUNSPEC STATUS:2
+lex: PARAMS STATUS:2
+lex: PEBIGRID STATUS:2
+lex: DIMENS STATUS:2
+lex: OIL STATUS:2
+lex: WATER STATUS:2
+lex: GAS STATUS:2
+lex: DISGAS STATUS:2
+lex: TABDIMS STATUS:2
+lex: START STATUS:2
+lex: GRID STATUS:2
+lex: BORDER STATUS:2
+lex: NLAYER STATUS:2
+lex: INITDATA STATUS:2
+lex: INITDATA STATUS:2
+lex: INITDATA STATUS:2
+lex: INITDATA STATUS:2
+lex: PROPS STATUS:2
+lex: SWOF STATUS:2
+lex: SGOF STATUS:2
+lex: PVTO STATUS:2
+lex: PVDG STATUS:2
+lex: DENSITY STATUS:2
+lex: PVTW STATUS:2
+lex: ROCK STATUS:2
+lex: SOLUTION STATUS:2
+lex: INITDATA STATUS:2
+lex: INITDATA STATUS:2
+lex: INITDATA STATUS:2
+lex: INITDATA STATUS:2
+lex: INITDATA STATUS:2
+lex: SUMMARY STATUS:2
+lex: WELSPECS STATUS:2
+lex: INCLUDE STATUS:2
+lex: FRTRWELL STATUS:2
+lex: BUILDGR STATUS:2
+lex: COMPDAT STATUS:2
+lex: WCONPROD STATUS:2
+lex: TSTEP STATUS:2
+lex: END STATUS:2
+C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\exe_files\pebi\Console_pebi-2310-0e2e3e6c.exe
+Parameter GREFINE is set
+Parameter MREFINE=1
+Parameter NATIVE_OUTPUT is set
+Parameter NREFINE=3
+Parameter N_CELL=10
+Parameter VERT_GRP_GEOM is set
+Grid calculation... 
+Grid calculation done (0.0093785 sec.) 
+Modifying fracture effective permeability
+Initial number of active cells: 985
+Output dir: C:\Users\shabalina.aa\Documents\cmake projects\optimization_stochopt\exe_files\pebi/res0000/
+Grid calculation... 
+Grid step is big
+Grid calculation done (0.0484352 sec.) 
+Number of active cells: 3546
+eps_out 13.13
+Recalculation due to linear solver convergence failure
+New time step 0.5 days, old is 1
+Recalculation due to too many iterations
+New time step 0.05 days, old is 0.5
+eps_out 1.89069
+Recalculation due to linear solver convergence failure
+New time step 0.025 days, old is 0.05
+Recalculation due to too many iterations
+New time step 0.0025 days, old is 0.025
+Recalculation due to too many iterations
+New time step 0.00025 days, old is 0.0025
+Recalculation due to too many iterations
+New time step 2.5e-05 days, old is 0.00025
+time iteration: 	1
+newton iterations:	11
+dt: 				2.5e-05 days
+time: 				2.5e-05 days [1 JAN 2000]
+Pressure. min 299.997; max 300; avg 300
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.2; avg 0.12
+RS.   min 161.472; max 250.624; avg 214.963
+time iteration: 	2
+newton iterations:	4
+dt: 				2.64872e-05 days
+time: 				5.14872e-05 days [1 JAN 2000]
+Pressure. min 299.993; max 300; avg 300
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.2; avg 0.12
+RS.   min 161.472; max 250.624; avg 214.963
+time iteration: 	3
+newton iterations:	1
+dt: 				2.87989e-05 days
+time: 				8.02861e-05 days [1 JAN 2000]
+Pressure. min 299.988; max 300; avg 300
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.2; avg 0.12
+RS.   min 161.472; max 250.624; avg 214.963
+time iteration: 	4
+newton iterations:	1
+dt: 				4.49983e-05 days
+time: 				0.000125284 days [1 JAN 2000]
+Pressure. min 299.981; max 300; avg 300
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.2; avg 0.12
+RS.   min 161.472; max 250.624; avg 214.963
+time iteration: 	5
+newton iterations:	5
+dt: 				7.03099e-05 days
+time: 				0.000195594 days [1 JAN 2000]
+Pressure. min 299.968; max 300; avg 300
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200001; avg 0.12
+RS.   min 161.472; max 250.624; avg 214.963
+time iteration: 	6
+newton iterations:	8
+dt: 				7.63806e-05 days
+time: 				0.000271975 days [1 JAN 2000]
+Pressure. min 299.953; max 300; avg 299.999
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200002; avg 0.12
+RS.   min 161.472; max 250.624; avg 214.963
+time iteration: 	7
+newton iterations:	2
+dt: 				8.28938e-05 days
+time: 				0.000354869 days [1 JAN 2000]
+Pressure. min 299.937; max 300; avg 299.999
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200003; avg 0.12
+RS.   min 161.472; max 250.624; avg 214.963
+time iteration: 	8
+newton iterations:	2
+dt: 				0.000129522 days
+time: 				0.00048439 days [1 JAN 2000]
+Pressure. min 299.91; max 300; avg 299.999
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200006; avg 0.12
+RS.   min 161.472; max 250.624; avg 214.963
+time iteration: 	9
+newton iterations:	3
+dt: 				0.000202378 days
+time: 				0.000686768 days [1 JAN 2000]
+Pressure. min 299.868; max 300; avg 299.998
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.20001; avg 0.12
+RS.   min 161.472; max 250.624; avg 214.963
+time iteration: 	10
+newton iterations:	2
+dt: 				0.000316215 days
+time: 				0.00100298 days [1 JAN 2000]
+Pressure. min 299.801; max 300; avg 299.996
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200017; avg 0.12
+RS.   min 161.472; max 250.624; avg 214.963
+time iteration: 	11
+newton iterations:	2
+dt: 				0.000494086 days
+time: 				0.00149707 days [1 JAN 2000]
+Pressure. min 299.695; max 300; avg 299.994
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200029; avg 0.120001
+RS.   min 161.472; max 250.625; avg 214.963
+time iteration: 	12
+newton iterations:	3
+dt: 				0.000772009 days
+time: 				0.00226908 days [1 JAN 2000]
+Pressure. min 299.53; max 300.001; avg 299.99
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200048; avg 0.120001
+RS.   min 161.472; max 250.625; avg 214.962
+time iteration: 	13
+newton iterations:	2
+dt: 				0.00120626 days
+time: 				0.00347534 days [1 JAN 2000]
+Pressure. min 299.275; max 300.001; avg 299.985
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.20008; avg 0.120002
+RS.   min 161.472; max 250.625; avg 214.962
+time iteration: 	14
+newton iterations:	9
+dt: 				0.00188479 days
+time: 				0.00536013 days [1 JAN 2000]
+Pressure. min 298.888; max 300.001; avg 299.975
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200129; avg 0.120003
+RS.   min 161.472; max 250.625; avg 214.961
+time iteration: 	15
+newton iterations:	3
+dt: 				0.00204874 days
+time: 				0.00740887 days [1 JAN 2000]
+Pressure. min 298.479; max 300.002; avg 299.966
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200182; avg 0.120004
+RS.   min 161.472; max 250.626; avg 214.96
+time iteration: 	16
+newton iterations:	8
+dt: 				0.00320115 days
+time: 				0.01061 days [1 JAN 2000]
+Pressure. min 297.864; max 300.002; avg 299.951
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200264; avg 0.120007
+RS.   min 161.472; max 250.626; avg 214.958
+time iteration: 	17
+newton iterations:	5
+dt: 				0.00347703 days
+time: 				0.0140871 days [1 JAN 2000]
+Pressure. min 297.221; max 300.003; avg 299.935
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200353; avg 0.120009
+RS.   min 161.472; max 250.627; avg 214.956
+time iteration: 	18
+newton iterations:	6
+dt: 				0.00379954 days
+time: 				0.0178866 days [1 JAN 2000]
+Pressure. min 296.545; max 300.004; avg 299.918
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200448; avg 0.120011
+RS.   min 161.472; max 250.628; avg 214.954
+Recalculation due to too many iterations
+New time step 0.000414112 days, old is 0.00414112
+time iteration: 	19
+newton iterations:	3
+dt: 				0.000414112 days
+time: 				0.0183007 days [1 JAN 2000]
+Pressure. min 296.472; max 300.004; avg 299.916
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200458; avg 0.120012
+RS.   min 161.472; max 250.628; avg 214.954
+time iteration: 	20
+newton iterations:	1
+dt: 				0.000453089 days
+time: 				0.0187538 days [1 JAN 2000]
+Pressure. min 296.392; max 300.004; avg 299.914
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.20047; avg 0.120012
+RS.   min 161.472; max 250.628; avg 214.954
+time iteration: 	21
+newton iterations:	2
+dt: 				0.000707952 days
+time: 				0.0194617 days [1 JAN 2000]
+Pressure. min 296.268; max 300.004; avg 299.911
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200487; avg 0.120012
+RS.   min 161.472; max 250.628; avg 214.953
+time iteration: 	22
+newton iterations:	1
+dt: 				0.00110617 days
+time: 				0.0205679 days [1 JAN 2000]
+Pressure. min 296.077; max 300.004; avg 299.906
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200515; avg 0.120013
+RS.   min 161.472; max 250.628; avg 214.953
+time iteration: 	23
+newton iterations:	2
+dt: 				0.0017284 days
+time: 				0.0222963 days [1 JAN 2000]
+Pressure. min 295.782; max 300.005; avg 299.899
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200557; avg 0.120014
+RS.   min 161.472; max 250.628; avg 214.952
+time iteration: 	24
+newton iterations:	12
+dt: 				0.00270062 days
+time: 				0.0249969 days [1 JAN 2000]
+Pressure. min 295.333; max 300.005; avg 299.887
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200623; avg 0.120016
+RS.   min 161.472; max 250.629; avg 214.95
+time iteration: 	25
+newton iterations:	2
+dt: 				0.00293902 days
+time: 				0.027936 days [1 JAN 2000]
+Pressure. min 294.857; max 300.006; avg 299.875
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200695; avg 0.120018
+RS.   min 161.472; max 250.629; avg 214.949
+Recalculation due to too many iterations
+New time step 0.000459222 days, old is 0.00459222
+time iteration: 	26
+newton iterations:	3
+dt: 				0.000459222 days
+time: 				0.0283952 days [1 JAN 2000]
+Pressure. min 294.783; max 300.006; avg 299.873
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200706; avg 0.120018
+RS.   min 161.472; max 250.63; avg 214.949
+time iteration: 	27
+newton iterations:	1
+dt: 				0.000499543 days
+time: 				0.0288947 days [1 JAN 2000]
+Pressure. min 294.703; max 300.006; avg 299.871
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200718; avg 0.120018
+RS.   min 161.472; max 250.63; avg 214.948
+time iteration: 	28
+newton iterations:	1
+dt: 				0.000780536 days
+time: 				0.0296753 days [1 JAN 2000]
+Pressure. min 294.579; max 300.006; avg 299.868
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200737; avg 0.120019
+RS.   min 161.472; max 250.63; avg 214.948
+time iteration: 	29
+newton iterations:	1
+dt: 				0.00121959 days
+time: 				0.0308948 days [1 JAN 2000]
+Pressure. min 294.386; max 300.006; avg 299.863
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200766; avg 0.120019
+RS.   min 161.472; max 250.63; avg 214.947
+time iteration: 	30
+newton iterations:	1
+dt: 				0.00190561 days
+time: 				0.0328005 days [1 JAN 2000]
+Pressure. min 294.09; max 300.007; avg 299.856
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200811; avg 0.120021
+RS.   min 161.472; max 250.63; avg 214.946
+time iteration: 	31
+newton iterations:	10
+dt: 				0.00297751 days
+time: 				0.035778 days [1 JAN 2000]
+Pressure. min 293.639; max 300.007; avg 299.844
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200882; avg 0.120022
+RS.   min 161.472; max 250.631; avg 214.945
+time iteration: 	32
+newton iterations:	1
+dt: 				0.00324049 days
+time: 				0.0390185 days [1 JAN 2000]
+Pressure. min 293.16; max 300.008; avg 299.831
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200958; avg 0.120024
+RS.   min 161.472; max 250.632; avg 214.943
+Recalculation due to too many iterations
+New time step 0.000506327 days, old is 0.00506327
+time iteration: 	33
+newton iterations:	9
+dt: 				0.000506327 days
+time: 				0.0395248 days [1 JAN 2000]
+Pressure. min 293.159; max 300.008; avg 299.831
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200958; avg 0.120024
+RS.   min 161.472; max 250.632; avg 214.943
+time iteration: 	34
+newton iterations:	8
+dt: 				0.000550498 days
+time: 				0.0400753 days [1 JAN 2000]
+Pressure. min 293.078; max 300.008; avg 299.829
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200971; avg 0.120025
+RS.   min 161.472; max 250.632; avg 214.943
+time iteration: 	35
+newton iterations:	1
+dt: 				0.000379406 days
+time: 				0.0404547 days [1 JAN 2000]
+Pressure. min 293.022; max 300.008; avg 299.828
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.20098; avg 0.120025
+RS.   min 161.472; max 250.632; avg 214.943
+time iteration: 	36
+newton iterations:	1
+dt: 				0.000592821 days
+time: 				0.0410475 days [1 JAN 2000]
+Pressure. min 292.936; max 300.008; avg 299.825
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.200993; avg 0.120025
+RS.   min 161.472; max 250.632; avg 214.943
+time iteration: 	37
+newton iterations:	1
+dt: 				0.000926284 days
+time: 				0.0419738 days [1 JAN 2000]
+Pressure. min 292.802; max 300.009; avg 299.822
+SWAT. min 0; max 1; avg 0.2
+SGAS. min 0; max 0.201015; avg 0.120026
+RS.   min 161.472; max 250.632; avg 214.942
+time iteration: 	38
+newton iterations:	2
+dt: 				0.00144732 days
+time: 				0.0434211 days [1 JAN 2000]
+Pressure. min 292.594; max 300.009; avg 299.816
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201049; avg 0.120027
+RS.   min 161.472; max 250.632; avg 214.941
+time iteration: 	39
+newton iterations:	5
+dt: 				0.00226143 days
+time: 				0.0456825 days [1 JAN 2000]
+Pressure. min 292.276; max 300.009; avg 299.808
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201101; avg 0.120028
+RS.   min 161.472; max 250.633; avg 214.94
+time iteration: 	40
+newton iterations:	1
+dt: 				0.00246238 days
+time: 				0.0481449 days [1 JAN 2000]
+Pressure. min 291.933; max 300.01; avg 299.799
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201157; avg 0.12003
+RS.   min 161.472; max 250.633; avg 214.939
+time iteration: 	41
+newton iterations:	10
+dt: 				0.00384746 days
+time: 				0.0519924 days [1 JAN 2000]
+Pressure. min 291.405; max 300.011; avg 299.785
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201245; avg 0.120032
+RS.   min 161.472; max 250.634; avg 214.937
+time iteration: 	42
+newton iterations:	5
+dt: 				0.00418808 days
+time: 				0.0561805 days [1 JAN 2000]
+Pressure. min 290.846; max 300.012; avg 299.77
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201339; avg 0.120035
+RS.   min 161.472; max 250.635; avg 214.935
+time iteration: 	43
+newton iterations:	9
+dt: 				0.00456195 days
+time: 				0.0607424 days [1 JAN 2000]
+Pressure. min 290.256; max 300.013; avg 299.754
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.20144; avg 0.120037
+RS.   min 161.472; max 250.636; avg 214.933
+time iteration: 	44
+newton iterations:	2
+dt: 				0.00496387 days
+time: 				0.0657063 days [1 JAN 2000]
+Pressure. min 289.636; max 300.014; avg 299.737
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.20155; avg 0.12004
+RS.   min 161.472; max 250.636; avg 214.93
+time iteration: 	45
+newton iterations:	5
+dt: 				0.00775605 days
+time: 				0.0734623 days [1 JAN 2000]
+Pressure. min 288.715; max 300.015; avg 299.711
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201717; avg 0.120045
+RS.   min 161.472; max 250.638; avg 214.926
+Recalculation due to too many iterations
+New time step 0.00084428 days, old is 0.0084428
+time iteration: 	46
+newton iterations:	1
+dt: 				0.00084428 days
+time: 				0.0743066 days [1 JAN 2000]
+Pressure. min 288.615; max 300.015; avg 299.708
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201736; avg 0.120046
+RS.   min 161.472; max 250.638; avg 214.926
+time iteration: 	47
+newton iterations:	1
+dt: 				0.00105535 days
+time: 				0.075362 days [1 JAN 2000]
+Pressure. min 288.491; max 300.015; avg 299.705
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201758; avg 0.120046
+RS.   min 161.472; max 250.638; avg 214.926
+time iteration: 	48
+newton iterations:	1
+dt: 				0.00164898 days
+time: 				0.077011 days [1 JAN 2000]
+Pressure. min 288.3; max 300.016; avg 299.699
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201794; avg 0.120047
+RS.   min 161.472; max 250.639; avg 214.925
+time iteration: 	49
+newton iterations:	8
+dt: 				0.00257654 days
+time: 				0.0795875 days [1 JAN 2000]
+Pressure. min 288.006; max 300.016; avg 299.691
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201849; avg 0.120049
+RS.   min 161.472; max 250.639; avg 214.923
+time iteration: 	50
+newton iterations:	4
+dt: 				0.00280477 days
+time: 				0.0823923 days [1 JAN 2000]
+Pressure. min 287.693; max 300.017; avg 299.682
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201908; avg 0.120051
+RS.   min 161.472; max 250.639; avg 214.922
+time iteration: 	51
+newton iterations:	5
+dt: 				0.00305359 days
+time: 				0.0854459 days [1 JAN 2000]
+Pressure. min 287.358; max 300.017; avg 299.672
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.201972; avg 0.120053
+RS.   min 161.472; max 250.64; avg 214.921
+time iteration: 	52
+newton iterations:	1
+dt: 				0.00332004 days
+time: 				0.0887659 days [1 JAN 2000]
+Pressure. min 287.002; max 300.018; avg 299.662
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.202042; avg 0.120055
+RS.   min 161.472; max 250.641; avg 214.919
+time iteration: 	53
+newton iterations:	6
+dt: 				0.00518757 days
+time: 				0.0939535 days [1 JAN 2000]
+Pressure. min 286.463; max 300.019; avg 299.646
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.202149; avg 0.120058
+RS.   min 161.472; max 250.641; avg 214.916
+time iteration: 	54
+newton iterations:	1
+dt: 				0.00564724 days
+time: 				0.0996007 days [1 JAN 2000]
+Pressure. min 285.898; max 300.02; avg 299.629
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.202265; avg 0.120061
+RS.   min 161.472; max 250.642; avg 214.914
+time iteration: 	55
+newton iterations:	7
+dt: 				0.0088238 days
+time: 				0.108425 days [1 JAN 2000]
+Pressure. min 285.063; max 300.022; avg 299.603
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.202441; avg 0.120066
+RS.   min 161.472; max 250.644; avg 214.909
+time iteration: 	56
+newton iterations:	5
+dt: 				0.00959432 days
+time: 				0.118019 days [1 JAN 2000]
+Pressure. min 284.207; max 300.023; avg 299.576
+SWAT. min 0; max 0.999999; avg 0.2
+SGAS. min 0; max 0.202629; avg 0.120072
+RS.   min 161.472; max 250.645; avg 214.904
+time iteration: 	57
+newton iterations:	2
+dt: 				0.0104383 days
+time: 				0.128457 days [1 JAN 2000]
+Pressure. min 283.333; max 300.025; avg 299.547
+SWAT. min 0; max 0.999998; avg 0.2
+SGAS. min 0; max 0.202829; avg 0.120079
+RS.   min 161.472; max 250.647; avg 214.899
+time iteration: 	58
+newton iterations:	2
+dt: 				0.0163099 days
+time: 				0.144767 days [1 JAN 2000]
+Pressure. min 282.093; max 300.028; avg 299.505
+SWAT. min 0; max 0.999998; avg 0.199999
+SGAS. min 0; max 0.20313; avg 0.120088
+RS.   min 161.472; max 250.649; avg 214.891
+time iteration: 	59
+newton iterations:	2
+dt: 				0.0254842 days
+time: 				0.170251 days [1 JAN 2000]
+Pressure. min 280.415; max 300.031; avg 299.442
+SWAT. min 0; max 0.999998; avg 0.199999
+SGAS. min 0; max 0.203577; avg 0.120104
+RS.   min 161.472; max 250.653; avg 214.879
+time iteration: 	60
+newton iterations:	2
+dt: 				0.0398191 days
+time: 				0.21007 days [1 JAN 2000]
+Pressure. min 278.285; max 300.036; avg 299.354
+SWAT. min 0; max 0.999997; avg 0.199999
+SGAS. min 0; max 0.20422; avg 0.120128
+RS.   min 161.472; max 250.657; avg 214.859
+time iteration: 	61
+newton iterations:	2
+dt: 				0.0622174 days
+time: 				0.272288 days [1 JAN 2000]
+Pressure. min 275.906; max 300.042; avg 299.231
+SWAT. min 0; max 0.999997; avg 0.199998
+SGAS. min 0; max 0.205115; avg 0.120164
+RS.   min 161.472; max 250.662; avg 215.243
+time iteration: 	62
+newton iterations:	2
+dt: 				0.0775404 days
+time: 				0.349828 days [1 JAN 2000]
+Pressure. min 273.842; max 300.047; avg 299.096
+SWAT. min 0; max 0.999996; avg 0.199997
+SGAS. min 0; max 0.20612; avg 0.120208
+RS.   min 161.472; max 250.667; avg 215.655
+time iteration: 	63
+newton iterations:	3
+dt: 				0.094814 days
+time: 				0.444642 days [1 JAN 2000]
+Pressure. min 272.062; max 300.051; avg 298.95
+SWAT. min 0; max 0.999995; avg 0.199995
+SGAS. min 0; max 0.207189; avg 0.120261
+RS.   min 161.472; max 250.671; avg 215.828
+time iteration: 	64
+newton iterations:	3
+dt: 				0.123014 days
+time: 				0.567656 days [1 JAN 2000]
+Pressure. min 270.455; max 300.054; avg 298.779
+SWAT. min 0; max 0.999993; avg 0.199993
+SGAS. min 0; max 0.208371; avg 0.120326
+RS.   min 161.472; max 250.673; avg 216.076
+Recalculation due to too many iterations
+New time step 0.0170892 days, old is 0.170892
+time iteration: 	65
+newton iterations:	2
+dt: 				0.0170892 days
+time: 				0.584745 days [1 JAN 2000]
+Pressure. min 270.244; max 300.054; avg 298.756
+SWAT. min 0; max 0.999993; avg 0.199993
+SGAS. min 0; max 0.208532; avg 0.120335
+RS.   min 161.472; max 250.674; avg 216.136
+time iteration: 	66
+newton iterations:	1
+dt: 				0.0213614 days
+time: 				0.606107 days [1 JAN 2000]
+Pressure. min 269.998; max 300.056; avg 298.727
+SWAT. min 0; max 0.999993; avg 0.199992
+SGAS. min 0; max 0.208736; avg 0.120347
+RS.   min 161.472; max 250.675; avg 216.209
+time iteration: 	67
+newton iterations:	2
+dt: 				0.0333773 days
+time: 				0.639484 days [1 JAN 2000]
+Pressure. min 269.647; max 300.059; avg 298.684
+SWAT. min 0; max 0.999992; avg 0.199992
+SGAS. min 0; max 0.209041; avg 0.120364
+RS.   min 161.472; max 250.678; avg 216.304
+Recalculation due to too many iterations
+New time step 0.0052152 days, old is 0.052152
+time iteration: 	68
+newton iterations:	1
+dt: 				0.0052152 days
+time: 				0.644699 days [1 JAN 2000]
+Pressure. min 269.593; max 300.06; avg 298.677
+SWAT. min 0; max 0.999992; avg 0.199992
+SGAS. min 0; max 0.209088; avg 0.120367
+RS.   min 161.472; max 250.678; avg 216.315
+time iteration: 	69
+newton iterations:	1
+dt: 				0.006519 days
+time: 				0.651218 days [1 JAN 2000]
+Pressure. min 269.527; max 300.06; avg 298.669
+SWAT. min 0; max 0.999992; avg 0.199992
+SGAS. min 0; max 0.209147; avg 0.12037
+RS.   min 161.472; max 250.679; avg 216.329
+time iteration: 	70
+newton iterations:	2
+dt: 				0.0101859 days
+time: 				0.661404 days [1 JAN 2000]
+Pressure. min 269.426; max 300.061; avg 298.656
+SWAT. min 0; max 0.999992; avg 0.199991
+SGAS. min 0; max 0.209238; avg 0.120375
+RS.   min 161.472; max 250.68; avg 216.349
+time iteration: 	71
+newton iterations:	2
+dt: 				0.0159155 days
+time: 				0.67732 days [1 JAN 2000]
+Pressure. min 269.275; max 300.062; avg 298.636
+SWAT. min 0; max 0.999992; avg 0.199991
+SGAS. min 0; max 0.209377; avg 0.120384
+RS.   min 161.472; max 250.681; avg 216.373
+time iteration: 	72
+newton iterations:	4
+dt: 				0.024868 days
+time: 				0.702188 days [1 JAN 2000]
+Pressure. min 269.053; max 300.065; avg 298.605
+SWAT. min 0; max 0.999991; avg 0.199991
+SGAS. min 0; max 0.209588; avg 0.120396
+RS.   min 161.472; max 250.683; avg 216.4
+Recalculation due to too many iterations
+New time step 0.00388562 days, old is 0.0388562
+time iteration: 	73
+newton iterations:	1
+dt: 				0.00388562 days
+time: 				0.706073 days [1 JAN 2000]
+Pressure. min 269.019; max 300.065; avg 298.6
+SWAT. min 0; max 0.999991; avg 0.199991
+SGAS. min 0; max 0.209621; avg 0.120398
+RS.   min 161.472; max 250.683; avg 216.405
+time iteration: 	74
+newton iterations:	1
+dt: 				0.00485703 days
+time: 				0.71093 days [1 JAN 2000]
+Pressure. min 268.977; max 300.065; avg 298.594
+SWAT. min 0; max 0.999991; avg 0.19999
+SGAS. min 0; max 0.209662; avg 0.120401
+RS.   min 161.472; max 250.684; avg 216.409
+time iteration: 	75
+newton iterations:	1
+dt: 				0.00758911 days
+time: 				0.718519 days [1 JAN 2000]
+Pressure. min 268.911; max 300.066; avg 298.584
+SWAT. min 0; max 0.999991; avg 0.19999
+SGAS. min 0; max 0.209725; avg 0.120404
+RS.   min 161.472; max 250.684; avg 216.417
+time iteration: 	76
+newton iterations:	2
+dt: 				0.011858 days
+time: 				0.730377 days [1 JAN 2000]
+Pressure. min 268.812; max 300.067; avg 298.57
+SWAT. min 0; max 0.999991; avg 0.19999
+SGAS. min 0; max 0.209822; avg 0.12041
+RS.   min 161.472; max 250.685; avg 216.428
+time iteration: 	77
+newton iterations:	2
+dt: 				0.0185281 days
+time: 				0.748905 days [1 JAN 2000]
+Pressure. min 268.664; max 300.069; avg 298.548
+SWAT. min 0; max 0.999991; avg 0.19999
+SGAS. min 0; max 0.209972; avg 0.12042
+RS.   min 161.472; max 250.687; avg 216.445
+Recalculation due to too many iterations
+New time step 0.00289502 days, old is 0.0289502
+time iteration: 	78
+newton iterations:	2
+dt: 				0.00289502 days
+time: 				0.7518 days [1 JAN 2000]
+Pressure. min 268.641; max 300.069; avg 298.544
+SWAT. min 0; max 0.999991; avg 0.19999
+SGAS. min 0; max 0.209995; avg 0.120421
+RS.   min 161.472; max 250.687; avg 216.448
+time iteration: 	79
+newton iterations:	1
+dt: 				0.00361877 days
+time: 				0.755419 days [1 JAN 2000]
+Pressure. min 268.612; max 300.069; avg 298.54
+SWAT. min 0; max 0.999991; avg 0.19999
+SGAS. min 0; max 0.210024; avg 0.120423
+RS.   min 161.472; max 250.687; avg 216.452
+time iteration: 	80
+newton iterations:	1
+dt: 				0.00565433 days
+time: 				0.761073 days [1 JAN 2000]
+Pressure. min 268.568; max 300.07; avg 298.533
+SWAT. min 0; max 0.999991; avg 0.19999
+SGAS. min 0; max 0.210069; avg 0.120426
+RS.   min 161.472; max 250.688; avg 216.459
+time iteration: 	81
+newton iterations:	2
+dt: 				0.00883489 days
+time: 				0.769908 days [1 JAN 2000]
+Pressure. min 268.5; max 300.071; avg 298.522
+SWAT. min 0; max 0.999991; avg 0.199989
+SGAS. min 0; max 0.210139; avg 0.12043
+RS.   min 161.472; max 250.688; avg 216.468
+time iteration: 	82
+newton iterations:	2
+dt: 				0.0138045 days
+time: 				0.783713 days [1 JAN 2000]
+Pressure. min 268.397; max 300.072; avg 298.506
+SWAT. min 0; max 0.99999; avg 0.199989
+SGAS. min 0; max 0.210246; avg 0.120437
+RS.   min 161.472; max 250.689; avg 216.481
+time iteration: 	83
+newton iterations:	2
+dt: 				0.0215695 days
+time: 				0.805282 days [1 JAN 2000]
+Pressure. min 268.241; max 300.074; avg 298.481
+SWAT. min 0; max 0.99999; avg 0.199989
+SGAS. min 0; max 0.21041; avg 0.120448
+RS.   min 161.472; max 250.691; avg 216.503
+time iteration: 	84
+newton iterations:	2
+dt: 				0.0337024 days
+time: 				0.838985 days [1 JAN 2000]
+Pressure. min 268.013; max 300.076; avg 298.442
+SWAT. min 0; max 0.99999; avg 0.199988
+SGAS. min 0; max 0.210658; avg 0.120464
+RS.   min 161.472; max 250.694; avg 216.547
+Recalculation due to too many iterations
+New time step 0.005266 days, old is 0.05266
+time iteration: 	85
+newton iterations:	1
+dt: 				0.005266 days
+time: 				0.844251 days [1 JAN 2000]
+Pressure. min 267.978; max 300.077; avg 298.436
+SWAT. min 0; max 0.99999; avg 0.199988
+SGAS. min 0; max 0.210696; avg 0.120467
+RS.   min 161.472; max 250.694; avg 216.555
+time iteration: 	86
+newton iterations:	1
+dt: 				0.0065825 days
+time: 				0.850833 days [1 JAN 2000]
+Pressure. min 267.934; max 300.077; avg 298.429
+SWAT. min 0; max 0.99999; avg 0.199988
+SGAS. min 0; max 0.210744; avg 0.12047
+RS.   min 161.472; max 250.695; avg 216.565
+time iteration: 	87
+newton iterations:	1
+dt: 				0.0102852 days
+time: 				0.861118 days [1 JAN 2000]
+Pressure. min 267.867; max 300.078; avg 298.417
+SWAT. min 0; max 0.99999; avg 0.199988
+SGAS. min 0; max 0.210818; avg 0.120475
+RS.   min 161.472; max 250.695; avg 216.581
+time iteration: 	88
+newton iterations:	3
+dt: 				0.0160706 days
+time: 				0.877189 days [1 JAN 2000]
+Pressure. min 267.765; max 300.08; avg 298.399
+SWAT. min 0; max 0.999989; avg 0.199987
+SGAS. min 0; max 0.210932; avg 0.120483
+RS.   min 161.472; max 250.697; avg 216.604
+time iteration: 	89
+newton iterations:	3
+dt: 				0.0251103 days
+time: 				0.902299 days [1 JAN 2000]
+Pressure. min 267.612; max 300.082; avg 298.371
+SWAT. min 0; max 0.999989; avg 0.199987
+SGAS. min 0; max 0.211115; avg 0.120495
+RS.   min 161.472; max 250.699; avg 216.626
+time iteration: 	90
+newton iterations:	4
+dt: 				0.0392348 days
+time: 				0.941534 days [1 JAN 2000]
+Pressure. min 267.385; max 300.085; avg 298.329
+SWAT. min 0; max 0.999989; avg 0.199986
+SGAS. min 0; max 0.211393; avg 0.120513
+RS.   min 161.472; max 250.701; avg 216.662
+time iteration: 	91
+newton iterations:	3
+dt: 				0.0613043 days
+time: 				1.00284 days [2 JAN 2000]
+Pressure. min 267.057; max 300.09; avg 298.264
+SWAT. min 0; max 0.999988; avg 0.199985
+SGAS. min 0; max 0.211807; avg 0.120542
+RS.   min 161.472; max 250.706; avg 216.741
+time iteration: 	92
+newton iterations:	2
+dt: 				0.095788 days
+time: 				1.09863 days [2 JAN 2000]
+Pressure. min 266.593; max 300.097; avg 298.167
+SWAT. min 0; max 0.999987; avg 0.199983
+SGAS. min 0; max 0.212407; avg 0.120585
+RS.   min 161.472; max 250.713; avg 216.904
+Recalculation due to too many iterations
+New time step 0.0149669 days, old is 0.149669
+time iteration: 	93
+newton iterations:	1
+dt: 				0.0149669 days
+time: 				1.11359 days [2 JAN 2000]
+Pressure. min 266.522; max 300.099; avg 298.152
+SWAT. min 0; max 0.999986; avg 0.199983
+SGAS. min 0; max 0.2125; avg 0.120592
+RS.   min 161.472; max 250.714; avg 216.935
+time iteration: 	94
+newton iterations:	2
+dt: 				0.0187086 days
+time: 				1.1323 days [2 JAN 2000]
+Pressure. min 266.434; max 300.1; avg 298.134
+SWAT. min 0; max 0.999986; avg 0.199982
+SGAS. min 0; max 0.212614; avg 0.1206
+RS.   min 161.472; max 250.715; avg 216.971
+time iteration: 	95
+newton iterations:	2
+dt: 				0.0292322 days
+time: 				1.16153 days [2 JAN 2000]
+Pressure. min 266.302; max 300.102; avg 298.105
+SWAT. min 0; max 0.999986; avg 0.199982
+SGAS. min 0; max 0.212788; avg 0.120613
+RS.   min 161.472; max 250.717; avg 217.023
+time iteration: 	96
+newton iterations:	11
+dt: 				0.0456753 days
+time: 				1.20721 days [2 JAN 2000]
+Pressure. min 266.104; max 300.106; avg 298.061
+SWAT. min 0; max 0.999985; avg 0.199981
+SGAS. min 0; max 0.21305; avg 0.120633
+RS.   min 161.472; max 250.72; avg 217.099
+Recalculation due to too many iterations
+New time step 0.00713676 days, old is 0.0713676
+time iteration: 	97
+newton iterations:	1
+dt: 				0.00713676 days
+time: 				1.21435 days [2 JAN 2000]
+Pressure. min 266.073; max 300.106; avg 298.054
+SWAT. min 0; max 0.999985; avg 0.199981
+SGAS. min 0; max 0.213091; avg 0.120636
+RS.   min 161.472; max 250.721; avg 217.114
+time iteration: 	98
+newton iterations:	1
+dt: 				0.00892096 days
+time: 				1.22327 days [2 JAN 2000]
+Pressure. min 266.035; max 300.107; avg 298.046
+SWAT. min 0; max 0.999985; avg 0.199981
+SGAS. min 0; max 0.213142; avg 0.12064
+RS.   min 161.472; max 250.722; avg 217.132
+time iteration: 	99
+newton iterations:	1
+dt: 				0.013939 days
+time: 				1.23721 days [2 JAN 2000]
+Pressure. min 265.976; max 300.108; avg 298.032
+SWAT. min 0; max 0.999985; avg 0.19998
+SGAS. min 0; max 0.21322; avg 0.120646
+RS.   min 161.472; max 250.723; avg 217.16
+time iteration: 	100
+newton iterations:	3
+dt: 				0.0217797 days
+time: 				1.25899 days [2 JAN 2000]
+Pressure. min 265.886; max 300.11; avg 298.012
+SWAT. min 0; max 0.999985; avg 0.19998
+SGAS. min 0; max 0.213341; avg 0.120655
+RS.   min 161.472; max 250.724; avg 217.2
+time iteration: 	101
+newton iterations:	3
+dt: 				0.0340307 days
+time: 				1.29302 days [2 JAN 2000]
+Pressure. min 265.75; max 300.112; avg 297.98
+SWAT. min 0; max 0.999984; avg 0.199979
+SGAS. min 0; max 0.213529; avg 0.12067
+RS.   min 161.472; max 250.726; avg 217.27
+Recalculation due to too many iterations
+New time step 0.0053173 days, old is 0.053173
+time iteration: 	102
+newton iterations:	2
+dt: 				0.0053173 days
+time: 				1.29833 days [2 JAN 2000]
+Pressure. min 265.729; max 300.113; avg 297.975
+SWAT. min 0; max 0.999984; avg 0.199979
+SGAS. min 0; max 0.213559; avg 0.120672
+RS.   min 161.472; max 250.727; avg 217.282
+time iteration: 	103
+newton iterations:	1
+dt: 				0.00664663 days
+time: 				1.30498 days [2 JAN 2000]
+Pressure. min 265.702; max 300.113; avg 297.969
+SWAT. min 0; max 0.999984; avg 0.199979
+SGAS. min 0; max 0.213597; avg 0.120675
+RS.   min 161.472; max 250.727; avg 217.298
+time iteration: 	104
+newton iterations:	1
+dt: 				0.0103854 days
+time: 				1.31537 days [2 JAN 2000]
+Pressure. min 265.661; max 300.114; avg 297.959
+SWAT. min 0; max 0.999984; avg 0.199979
+SGAS. min 0; max 0.213656; avg 0.120679
+RS.   min 161.472; max 250.728; avg 217.321
+time iteration: 	105
+newton iterations:	2
+dt: 				0.0162271 days
+time: 				1.33159 days [2 JAN 2000]
+Pressure. min 265.598; max 300.115; avg 297.944
+SWAT. min 0; max 0.999984; avg 0.199978
+SGAS. min 0; max 0.213746; avg 0.120686
+RS.   min 161.472; max 250.729; avg 217.356
+time iteration: 	106
+newton iterations:	12
+dt: 				0.0253549 days
+time: 				1.35695 days [2 JAN 2000]
+Pressure. min 265.502; max 300.117; avg 297.921
+SWAT. min 0; max 0.999983; avg 0.199978
+SGAS. min 0; max 0.213885; avg 0.120697
+RS.   min 161.472; max 250.731; avg 217.412
+time iteration: 	107
+newton iterations:	3
+dt: 				0.039617 days
+time: 				1.39656 days [2 JAN 2000]
+Pressure. min 265.356; max 300.12; avg 297.886
+SWAT. min 0; max 0.999983; avg 0.199977
+SGAS. min 0; max 0.214096; avg 0.120714
+RS.   min 161.472; max 250.733; avg 217.523
+time iteration: 	108
+newton iterations:	2
+dt: 				0.0566759 days
+time: 				1.45324 days [2 JAN 2000]
+Pressure. min 265.154; max 300.124; avg 297.836
+SWAT. min 0; max 0.999982; avg 0.199976
+SGAS. min 0; max 0.214387; avg 0.120737
+RS.   min 161.472; max 250.737; avg 217.677
+time iteration: 	109
+newton iterations:	2
+dt: 				0.0885561 days
+time: 				1.5418 days [2 JAN 2000]
+Pressure. min 264.856; max 300.13; avg 297.76
+SWAT. min 0; max 0.999981; avg 0.199974
+SGAS. min 0; max 0.214817; avg 0.120772
+RS.   min 161.472; max 250.742; avg 217.91
+Recalculation due to too many iterations
+New time step 0.0138369 days, old is 0.138369
+time iteration: 	110
+newton iterations:	1
+dt: 				0.0138369 days
+time: 				1.55563 days [2 JAN 2000]
+Pressure. min 264.81; max 300.131; avg 297.749
+SWAT. min 0; max 0.999981; avg 0.199974
+SGAS. min 0; max 0.214883; avg 0.120778
+RS.   min 161.472; max 250.743; avg 217.946
+time iteration: 	111
+newton iterations:	2
+dt: 				0.0172961 days
+time: 				1.57293 days [2 JAN 2000]
+Pressure. min 264.753; max 300.132; avg 297.734
+SWAT. min 0; max 0.999981; avg 0.199974
+SGAS. min 0; max 0.214966; avg 0.120785
+RS.   min 161.472; max 250.744; avg 217.989
+Recalculation due to too many iterations
+New time step 0.00270252 days, old is 0.0270252
+time iteration: 	112
+newton iterations:	1
+dt: 				0.00270252 days
+time: 				1.57563 days [2 JAN 2000]
+Pressure. min 264.744; max 300.132; avg 297.732
+SWAT. min 0; max 0.999981; avg 0.199974
+SGAS. min 0; max 0.214979; avg 0.120786
+RS.   min 161.472; max 250.744; avg 217.996
+time iteration: 	113
+newton iterations:	2
+dt: 				0.00337815 days
+time: 				1.57901 days [2 JAN 2000]
+Pressure. min 264.733; max 300.132; avg 297.729
+SWAT. min 0; max 0.999981; avg 0.199974
+SGAS. min 0; max 0.214995; avg 0.120787
+RS.   min 161.472; max 250.744; avg 218.004
+time iteration: 	114
+newton iterations:	2
+dt: 				0.00527836 days
+time: 				1.58429 days [2 JAN 2000]
+Pressure. min 264.715; max 300.133; avg 297.724
+SWAT. min 0; max 0.999981; avg 0.199974
+SGAS. min 0; max 0.21502; avg 0.120789
+RS.   min 161.472; max 250.745; avg 218.017
+time iteration: 	115
+newton iterations:	1
+dt: 				0.00824743 days
+time: 				1.59254 days [2 JAN 2000]
+Pressure. min 264.688; max 300.133; avg 297.718
+SWAT. min 0; max 0.99998; avg 0.199973
+SGAS. min 0; max 0.215058; avg 0.120793
+RS.   min 161.472; max 250.745; avg 218.037
+time iteration: 	116
+newton iterations:	2
+dt: 				0.0128866 days
+time: 				1.60542 days [2 JAN 2000]
+Pressure. min 264.647; max 300.134; avg 297.707
+SWAT. min 0; max 0.99998; avg 0.199973
+SGAS. min 0; max 0.215118; avg 0.120798
+RS.   min 161.472; max 250.746; avg 218.067
+time iteration: 	117
+newton iterations:	4
+dt: 				0.0201353 days
+time: 				1.62556 days [2 JAN 2000]
+Pressure. min 264.582; max 300.135; avg 297.69
+SWAT. min 0; max 0.99998; avg 0.199973
+SGAS. min 0; max 0.215211; avg 0.120806
+RS.   min 161.472; max 250.747; avg 218.112
+Recalculation due to too many iterations
+New time step 0.00314615 days, old is 0.0314615
+time iteration: 	118
+newton iterations:	1
+dt: 				0.00314615 days
+time: 				1.6287 days [2 JAN 2000]
+Pressure. min 264.572; max 300.135; avg 297.687
+SWAT. min 0; max 0.99998; avg 0.199973
+SGAS. min 0; max 0.215226; avg 0.120807
+RS.   min 161.472; max 250.747; avg 218.118
+time iteration: 	119
+newton iterations:	2
+dt: 				0.00393268 days
+time: 				1.63264 days [2 JAN 2000]
+Pressure. min 264.56; max 300.136; avg 297.684
+SWAT. min 0; max 0.99998; avg 0.199973
+SGAS. min 0; max 0.215244; avg 0.120808
+RS.   min 161.472; max 250.748; avg 218.126
+time iteration: 	120
+newton iterations:	2
+dt: 				0.00614482 days
+time: 				1.63878 days [2 JAN 2000]
+Pressure. min 264.54; max 300.136; avg 297.679
+SWAT. min 0; max 0.99998; avg 0.199973
+SGAS. min 0; max 0.215272; avg 0.120811
+RS.   min 161.472; max 250.748; avg 218.139
+time iteration: 	121
+newton iterations:	1
+dt: 				0.00960128 days
+time: 				1.64838 days [2 JAN 2000]
+Pressure. min 264.51; max 300.137; avg 297.671
+SWAT. min 0; max 0.99998; avg 0.199972
+SGAS. min 0; max 0.215316; avg 0.120815
+RS.   min 161.472; max 250.749; avg 218.158
+time iteration: 	122
+newton iterations:	2
+dt: 				0.015002 days
+time: 				1.66339 days [2 JAN 2000]
+Pressure. min 264.464; max 300.138; avg 297.659
+SWAT. min 0; max 0.99998; avg 0.199972
+SGAS. min 0; max 0.215386; avg 0.12082
+RS.   min 161.472; max 250.75; avg 218.187
+time iteration: 	123
+newton iterations:	3
+dt: 				0.0234406 days
+time: 				1.68683 days [2 JAN 2000]
+Pressure. min 264.392; max 300.139; avg 297.64
+SWAT. min 0; max 0.999979; avg 0.199972
+SGAS. min 0; max 0.215495; avg 0.12083
+RS.   min 161.472; max 250.751; avg 218.23
+time iteration: 	124
+newton iterations:	6
+dt: 				0.036626 days
+time: 				1.72345 days [2 JAN 2000]
+Pressure. min 264.282; max 300.142; avg 297.61
+SWAT. min 0; max 0.999979; avg 0.199971
+SGAS. min 0; max 0.215661; avg 0.120844
+RS.   min 161.472; max 250.753; avg 218.298
+Recalculation due to too many iterations
+New time step 0.00572281 days, old is 0.0572281
+time iteration: 	125
+newton iterations:	2
+dt: 				0.00572281 days
+time: 				1.72917 days [2 JAN 2000]
+Pressure. min 264.265; max 300.142; avg 297.606
+SWAT. min 0; max 0.999979; avg 0.199971
+SGAS. min 0; max 0.215687; avg 0.120846
+RS.   min 161.472; max 250.753; avg 218.309
+time iteration: 	126
+newton iterations:	2
+dt: 				0.00715351 days
+time: 				1.73633 days [2 JAN 2000]
+Pressure. min 264.243; max 300.142; avg 297.6
+SWAT. min 0; max 0.999979; avg 0.199971
+SGAS. min 0; max 0.21572; avg 0.120849
+RS.   min 161.472; max 250.754; avg 218.323
+time iteration: 	127
+newton iterations:	1
+dt: 				0.0111774 days
+time: 				1.74751 days [2 JAN 2000]
+Pressure. min 264.21; max 300.143; avg 297.591
+SWAT. min 0; max 0.999978; avg 0.19997
+SGAS. min 0; max 0.21577; avg 0.120853
+RS.   min 161.472; max 250.755; avg 218.344
+time iteration: 	128
+newton iterations:	2
+dt: 				0.0174646 days
+time: 				1.76497 days [2 JAN 2000]
+Pressure. min 264.159; max 300.144; avg 297.577
+SWAT. min 0; max 0.999978; avg 0.19997
+SGAS. min 0; max 0.215847; avg 0.12086
+RS.   min 161.472; max 250.756; avg 218.377
+time iteration: 	129
+newton iterations:	3
+dt: 				0.0272885 days
+time: 				1.79226 days [2 JAN 2000]
+Pressure. min 264.08; max 300.146; avg 297.556
+SWAT. min 0; max 0.999978; avg 0.19997
+SGAS. min 0; max 0.215966; avg 0.12087
+RS.   min 161.472; max 250.757; avg 218.425
+Recalculation due to too many iterations
+New time step 0.00426382 days, old is 0.0426382
+time iteration: 	130
+newton iterations:	2
+dt: 				0.00426382 days
+time: 				1.79652 days [2 JAN 2000]
+Pressure. min 264.068; max 300.146; avg 297.552
+SWAT. min 0; max 0.999978; avg 0.19997
+SGAS. min 0; max 0.215985; avg 0.120872
+RS.   min 161.472; max 250.757; avg 218.433
+time iteration: 	131
+newton iterations:	2
+dt: 				0.00532978 days
+time: 				1.80185 days [2 JAN 2000]
+Pressure. min 264.052; max 300.147; avg 297.548
+SWAT. min 0; max 0.999978; avg 0.199969
+SGAS. min 0; max 0.216008; avg 0.120874
+RS.   min 161.472; max 250.758; avg 218.442
+time iteration: 	132
+newton iterations:	1
+dt: 				0.00832778 days
+time: 				1.81018 days [2 JAN 2000]
+Pressure. min 264.028; max 300.147; avg 297.542
+SWAT. min 0; max 0.999978; avg 0.199969
+SGAS. min 0; max 0.216044; avg 0.120877
+RS.   min 161.472; max 250.758; avg 218.457
+time iteration: 	133
+newton iterations:	2
+dt: 				0.0130122 days
+time: 				1.82319 days [2 JAN 2000]
+Pressure. min 263.991; max 300.148; avg 297.532
+SWAT. min 0; max 0.999978; avg 0.199969
+SGAS. min 0; max 0.2161; avg 0.120882
+RS.   min 161.472; max 250.759; avg 218.479
+time iteration: 	134
+newton iterations:	3
+dt: 				0.0203315 days
+time: 				1.84352 days [2 JAN 2000]
+Pressure. min 263.934; max 300.149; avg 297.516
+SWAT. min 0; max 0.999977; avg 0.199969
+SGAS. min 0; max 0.216186; avg 0.120889
+RS.   min 161.472; max 250.76; avg 218.511
+time iteration: 	135
+newton iterations:	3
+dt: 				0.031768 days
+time: 				1.87529 days [2 JAN 2000]
+Pressure. min 263.846; max 300.151; avg 297.492
+SWAT. min 0; max 0.999977; avg 0.199968
+SGAS. min 0; max 0.216318; avg 0.120901
+RS.   min 161.472; max 250.762; avg 218.561
+time iteration: 	136
+newton iterations:	3
+dt: 				0.0496374 days
+time: 				1.92493 days [2 JAN 2000]
+Pressure. min 263.713; max 300.154; avg 297.454
+SWAT. min 0; max 0.999976; avg 0.199967
+SGAS. min 0; max 0.216519; avg 0.120919
+RS.   min 161.472; max 250.764; avg 218.634
+time iteration: 	137
+newton iterations:	3
+dt: 				0.0775585 days
+time: 				2.00249 days [3 JAN 2000]
+Pressure. min 263.511; max 300.159; avg 297.397
+SWAT. min 0; max 0.999975; avg 0.199966
+SGAS. min 0; max 0.216822; avg 0.120947
+RS.   min 161.472; max 250.769; avg 218.75
+Recalculation due to too many iterations
+New time step 0.0121185 days, old is 0.121185
+time iteration: 	138
+newton iterations:	1
+dt: 				0.0121185 days
+time: 				2.01461 days [3 JAN 2000]
+Pressure. min 263.48; max 300.159; avg 297.388
+SWAT. min 0; max 0.999975; avg 0.199966
+SGAS. min 0; max 0.216869; avg 0.120952
+RS.   min 161.472; max 250.769; avg 218.77
+time iteration: 	139
+newton iterations:	1
+dt: 				0.0151481 days
+time: 				2.02975 days [3 JAN 2000]
+Pressure. min 263.441; max 300.16; avg 297.376
+SWAT. min 0; max 0.999975; avg 0.199965
+SGAS. min 0; max 0.216927; avg 0.120957
+RS.   min 161.472; max 250.77; avg 218.795
+time iteration: 	140
+newton iterations:	2
+dt: 				0.023669 days
+time: 				2.05342 days [3 JAN 2000]
+Pressure. min 263.381; max 300.162; avg 297.359
+SWAT. min 0; max 0.999975; avg 0.199965
+SGAS. min 0; max 0.217017; avg 0.120966
+RS.   min 161.472; max 250.771; avg 218.832
+time iteration: 	141
+newton iterations:	2
+dt: 				0.0369828 days
+time: 				2.09041 days [3 JAN 2000]
+Pressure. min 263.113; max 300.164; avg 297.333
+SWAT. min 0; max 0.999974; avg 0.199964
+SGAS. min 0; max 0.217154; avg 0.120979
+RS.   min 161.472; max 250.773; avg 218.887
+Recalculation due to too many iterations
+New time step 0.00577856 days, old is 0.0577856
+time iteration: 	142
+newton iterations:	2
+dt: 				0.00577856 days
+time: 				2.09618 days [3 JAN 2000]
+Pressure. min 263.067; max 300.164; avg 297.328
+SWAT. min 0; max 0.999974; avg 0.199964
+SGAS. min 0; max 0.217176; avg 0.120981
+RS.   min 161.472; max 250.773; avg 218.895
+time iteration: 	143
+newton iterations:	2
+dt: 				0.0072232 days
+time: 				2.10341 days [3 JAN 2000]
+Pressure. min 263.009; max 300.164; avg 297.323
+SWAT. min 0; max 0.999974; avg 0.199964
+SGAS. min 0; max 0.217203; avg 0.120984
+RS.   min 161.472; max 250.774; avg 218.905
+time iteration: 	144
+newton iterations:	2
+dt: 				0.0112862 days
+time: 				2.11469 days [3 JAN 2000]
+Pressure. min 262.92; max 300.165; avg 297.315
+SWAT. min 0; max 0.999974; avg 0.199964
+SGAS. min 0; max 0.217244; avg 0.120988
+RS.   min 161.472; max 250.774; avg 218.92
+time iteration: 	145
+newton iterations:	2
+dt: 				0.0176348 days
+time: 				2.13233 days [3 JAN 2000]
+Pressure. min 262.783; max 300.166; avg 297.303
+SWAT. min 0; max 0.999974; avg 0.199963
+SGAS. min 0; max 0.217308; avg 0.120994
+RS.   min 161.472; max 250.775; avg 218.943
+time iteration: 	146
+newton iterations:	3
+dt: 				0.0275543 days
+time: 				2.15988 days [3 JAN 2000]
+Pressure. min 262.571; max 300.168; avg 297.283
+SWAT. min 0; max 0.999973; avg 0.199963
+SGAS. min 0; max 0.217408; avg 0.121003
+RS.   min 161.472; max 250.777; avg 218.979
+Recalculation due to too many iterations
+New time step 0.00430536 days, old is 0.0430536
+time iteration: 	147
+newton iterations:	2
+dt: 				0.00430536 days
+time: 				2.16419 days [3 JAN 2000]
+Pressure. min 262.538; max 300.168; avg 297.28
+SWAT. min 0; max 0.999973; avg 0.199963
+SGAS. min 0; max 0.217424; avg 0.121005
+RS.   min 161.472; max 250.777; avg 218.985
+time iteration: 	148
+newton iterations:	2
+dt: 				0.0053817 days
+time: 				2.16957 days [3 JAN 2000]
+Pressure. min 262.497; max 300.168; avg 297.276
+SWAT. min 0; max 0.999973; avg 0.199963
+SGAS. min 0; max 0.217444; avg 0.121007
+RS.   min 161.472; max 250.777; avg 218.992
+time iteration: 	149
+newton iterations:	2
+dt: 				0.00840891 days
+time: 				2.17798 days [3 JAN 2000]
+Pressure. min 262.433; max 300.169; avg 297.27
+SWAT. min 0; max 0.999973; avg 0.199963
+SGAS. min 0; max 0.217476; avg 0.12101
+RS.   min 161.472; max 250.778; avg 219.002
+time iteration: 	150
+newton iterations:	2
+dt: 				0.0131389 days
+time: 				2.19112 days [3 JAN 2000]
+Pressure. min 262.334; max 300.169; avg 297.261
+SWAT. min 0; max 0.999973; avg 0.199962
+SGAS. min 0; max 0.217524; avg 0.121014
+RS.   min 161.472; max 250.778; avg 219.019
+time iteration: 	151
+newton iterations:	3
+dt: 				0.0205296 days
+time: 				2.21165 days [3 JAN 2000]
+Pressure. min 262.181; max 300.17; avg 297.247
+SWAT. min 0; max 0.999973; avg 0.199962
+SGAS. min 0; max 0.217599; avg 0.121021
+RS.   min 161.472; max 250.779; avg 219.045
+time iteration: 	152
+newton iterations:	5
+dt: 				0.0320774 days
+time: 				2.24372 days [3 JAN 2000]
+Pressure. min 261.949; max 300.172; avg 297.225
+SWAT. min 0; max 0.999972; avg 0.199961
+SGAS. min 0; max 0.217714; avg 0.121033
+RS.   min 161.472; max 250.781; avg 219.083
+Recalculation due to too many iterations
+New time step 0.0050121 days, old is 0.050121
+time iteration: 	153
+newton iterations:	1
+dt: 				0.0050121 days
+time: 				2.24874 days [3 JAN 2000]
+Pressure. min 261.913; max 300.172; avg 297.221
+SWAT. min 0; max 0.999972; avg 0.199961
+SGAS. min 0; max 0.217732; avg 0.121034
+RS.   min 161.472; max 250.781; avg 219.09
+time iteration: 	154
+newton iterations:	2
+dt: 				0.00626513 days
+time: 				2.255 days [3 JAN 2000]
+Pressure. min 261.868; max 300.173; avg 297.217
+SWAT. min 0; max 0.999972; avg 0.199961
+SGAS. min 0; max 0.217754; avg 0.121036
+RS.   min 161.472; max 250.781; avg 219.097
+time iteration: 	155
+newton iterations:	2
+dt: 				0.00978926 days
+time: 				2.26479 days [3 JAN 2000]
+Pressure. min 261.798; max 300.173; avg 297.21
+SWAT. min 0; max 0.999972; avg 0.199961
+SGAS. min 0; max 0.217789; avg 0.12104
+RS.   min 161.472; max 250.782; avg 219.109
+time iteration: 	156
+newton iterations:	1
+dt: 				0.0152957 days
+time: 				2.28009 days [3 JAN 2000]
+Pressure. min 261.69; max 300.174; avg 297.2
+SWAT. min 0; max 0.999972; avg 0.199961
+SGAS. min 0; max 0.217843; avg 0.121045
+RS.   min 161.472; max 250.783; avg 219.127
+time iteration: 	157
+newton iterations:	4
+dt: 				0.0238996 days
+time: 				2.30399 days [3 JAN 2000]
+Pressure. min 261.526; max 300.175; avg 297.183
+SWAT. min 0; max 0.999971; avg 0.19996
+SGAS. min 0; max 0.217926; avg 0.121053
+RS.   min 161.472; max 250.784; avg 219.155
+Recalculation due to too many iterations
+New time step 0.00373431 days, old is 0.0373431
+time iteration: 	158
+newton iterations:	1
+dt: 				0.00373431 days
+time: 				2.30772 days [3 JAN 2000]
+Pressure. min 261.5; max 300.176; avg 297.181
+SWAT. min 0; max 0.999971; avg 0.19996
+SGAS. min 0; max 0.217939; avg 0.121054
+RS.   min 161.472; max 250.784; avg 219.159
+time iteration: 	159
+newton iterations:	2
+dt: 				0.00466788 days
+time: 				2.31239 days [3 JAN 2000]
+Pressure. min 261.468; max 300.176; avg 297.178
+SWAT. min 0; max 0.999971; avg 0.19996
+SGAS. min 0; max 0.217955; avg 0.121056
+RS.   min 161.472; max 250.784; avg 219.165
+time iteration: 	160
+newton iterations:	2
+dt: 				0.00729357 days
+time: 				2.31968 days [3 JAN 2000]
+Pressure. min 261.418; max 300.176; avg 297.173
+SWAT. min 0; max 0.999971; avg 0.19996
+SGAS. min 0; max 0.217981; avg 0.121058
+RS.   min 161.472; max 250.785; avg 219.174
+time iteration: 	161
+newton iterations:	2
+dt: 				0.0113962 days
+time: 				2.33108 days [3 JAN 2000]
+Pressure. min 261.342; max 300.177; avg 297.165
+SWAT. min 0; max 0.999971; avg 0.19996
+SGAS. min 0; max 0.21802; avg 0.121062
+RS.   min 161.472; max 250.785; avg 219.187
+time iteration: 	162
+newton iterations:	3
+dt: 				0.0178066 days
+time: 				2.34889 days [3 JAN 2000]
+Pressure. min 261.223; max 300.178; avg 297.153
+SWAT. min 0; max 0.999971; avg 0.19996
+SGAS. min 0; max 0.21808; avg 0.121068
+RS.   min 161.472; max 250.786; avg 219.207
+time iteration: 	163
+newton iterations:	3
+dt: 				0.0278227 days
+time: 				2.37671 days [3 JAN 2000]
+Pressure. min 261.043; max 300.179; avg 297.135
+SWAT. min 0; max 0.999971; avg 0.199959
+SGAS. min 0; max 0.218174; avg 0.121078
+RS.   min 161.472; max 250.787; avg 219.236
+Recalculation due to too many iterations
+New time step 0.0043473 days, old is 0.043473
+time iteration: 	164
+newton iterations:	1
+dt: 				0.0043473 days
+time: 				2.38106 days [3 JAN 2000]
+Pressure. min 261.015; max 300.179; avg 297.132
+SWAT. min 0; max 0.999971; avg 0.199959
+SGAS. min 0; max 0.218189; avg 0.121079
+RS.   min 161.472; max 250.787; avg 219.241
+time iteration: 	165
+newton iterations:	2
+dt: 				0.00543413 days
+time: 				2.38649 days [3 JAN 2000]
+Pressure. min 260.98; max 300.18; avg 297.128
+SWAT. min 0; max 0.99997; avg 0.199959
+SGAS. min 0; max 0.218207; avg 0.121081
+RS.   min 161.472; max 250.788; avg 219.247
+time iteration: 	166
+newton iterations:	2
+dt: 				0.00849083 days
+time: 				2.39498 days [3 JAN 2000]
+Pressure. min 260.926; max 300.18; avg 297.123
+SWAT. min 0; max 0.99997; avg 0.199959
+SGAS. min 0; max 0.218235; avg 0.121084
+RS.   min 161.472; max 250.788; avg 219.256
+time iteration: 	167
+newton iterations:	2
+dt: 				0.0132669 days
+time: 				2.40825 days [3 JAN 2000]
+Pressure. min 260.842; max 300.181; avg 297.114
+SWAT. min 0; max 0.99997; avg 0.199959
+SGAS. min 0; max 0.218279; avg 0.121088
+RS.   min 161.472; max 250.789; avg 219.27
+time iteration: 	168
+newton iterations:	3
+dt: 				0.0207296 days
+time: 				2.42898 days [3 JAN 2000]
+Pressure. min 260.713; max 300.182; avg 297.1
+SWAT. min 0; max 0.99997; avg 0.199958
+SGAS. min 0; max 0.218347; avg 0.121095
+RS.   min 161.472; max 250.79; avg 219.291
+Recalculation due to too many iterations
+New time step 0.00323899 days, old is 0.0323899
+time iteration: 	169
+newton iterations:	1
+dt: 				0.00323899 days
+time: 				2.43222 days [3 JAN 2000]
+Pressure. min 260.693; max 300.182; avg 297.098
+SWAT. min 0; max 0.99997; avg 0.199958
+SGAS. min 0; max 0.218358; avg 0.121096
+RS.   min 161.472; max 250.79; avg 219.294
+time iteration: 	170
+newton iterations:	1
+dt: 				0.00404874 days
+time: 				2.43626 days [3 JAN 2000]
+Pressure. min 260.668; max 300.182; avg 297.095
+SWAT. min 0; max 0.99997; avg 0.199958
+SGAS. min 0; max 0.218371; avg 0.121098
+RS.   min 161.472; max 250.79; avg 219.298
+time iteration: 	171
+newton iterations:	2
+dt: 				0.00632616 days
+time: 				2.44259 days [3 JAN 2000]
+Pressure. min 260.629; max 300.183; avg 297.091
+SWAT. min 0; max 0.99997; avg 0.199958
+SGAS. min 0; max 0.218392; avg 0.1211
+RS.   min 161.472; max 250.79; avg 219.304
+time iteration: 	172
+newton iterations:	2
+dt: 				0.00988463 days
+time: 				2.45248 days [3 JAN 2000]
+Pressure. min 260.568; max 300.183; avg 297.085
+SWAT. min 0; max 0.99997; avg 0.199958
+SGAS. min 0; max 0.218424; avg 0.121103
+RS.   min 161.472; max 250.791; avg 219.314
+time iteration: 	173
+newton iterations:	2
+dt: 				0.0154447 days
+time: 				2.46792 days [3 JAN 2000]
+Pressure. min 260.475; max 300.184; avg 297.075
+SWAT. min 0; max 0.999969; avg 0.199958
+SGAS. min 0; max 0.218474; avg 0.121108
+RS.   min 161.472; max 250.792; avg 219.329
+time iteration: 	174
+newton iterations:	2
+dt: 				0.0241324 days
+time: 				2.49205 days [3 JAN 2000]
+Pressure. min 260.333; max 300.185; avg 297.059
+SWAT. min 0; max 0.999969; avg 0.199957
+SGAS. min 0; max 0.218551; avg 0.121116
+RS.   min 161.472; max 250.793; avg 219.352
+time iteration: 	175
+newton iterations:	5
+dt: 				0.0377069 days
+time: 				2.52976 days [3 JAN 2000]
+Pressure. min 260.116; max 300.187; avg 297.035
+SWAT. min 0; max 0.999969; avg 0.199956
+SGAS. min 0; max 0.21867; avg 0.121128
+RS.   min 161.472; max 250.794; avg 219.387
+Recalculation due to too many iterations
+New time step 0.005462 days, old is 0.05462
+time iteration: 	176
+newton iterations:	2
+dt: 				0.005462 days
+time: 				2.53522 days [3 JAN 2000]
+Pressure. min 260.085; max 300.187; avg 297.031
+SWAT. min 0; max 0.999969; avg 0.199956
+SGAS. min 0; max 0.218687; avg 0.12113
+RS.   min 161.472; max 250.795; avg 219.391
+time iteration: 	177
+newton iterations:	2
+dt: 				0.0068275 days
+time: 				2.54205 days [3 JAN 2000]
+Pressure. min 260.046; max 300.187; avg 297.027
+SWAT. min 0; max 0.999969; avg 0.199956
+SGAS. min 0; max 0.218708; avg 0.121132
+RS.   min 161.472; max 250.795; avg 219.397
+time iteration: 	178
+newton iterations:	2
+dt: 				0.010668 days
+time: 				2.55272 days [3 JAN 2000]
+Pressure. min 259.986; max 300.188; avg 297.02
+SWAT. min 0; max 0.999968; avg 0.199956
+SGAS. min 0; max 0.218741; avg 0.121136
+RS.   min 161.472; max 250.795; avg 219.406
+time iteration: 	179
+newton iterations:	2
+dt: 				0.0166687 days
+time: 				2.56939 days [3 JAN 2000]
+Pressure. min 259.893; max 300.189; avg 297.01
+SWAT. min 0; max 0.999968; avg 0.199956
+SGAS. min 0; max 0.218793; avg 0.121141
+RS.   min 161.472; max 250.796; avg 219.42
+time iteration: 	180
+newton iterations:	2
+dt: 				0.0260449 days
+time: 				2.59543 days [3 JAN 2000]
+Pressure. min 259.751; max 300.19; avg 296.993
+SWAT. min 0; max 0.999968; avg 0.199955
+SGAS. min 0; max 0.218872; avg 0.12115
+RS.   min 161.472; max 250.797; avg 219.441
+Recalculation due to too many iterations
+New time step 0.00406951 days, old is 0.0406951
+time iteration: 	181
+newton iterations:	1
+dt: 				0.00406951 days
+time: 				2.5995 days [3 JAN 2000]
+Pressure. min 259.729; max 300.19; avg 296.99
+SWAT. min 0; max 0.999968; avg 0.199955
+SGAS. min 0; max 0.218885; avg 0.121151
+RS.   min 161.472; max 250.797; avg 219.444
+time iteration: 	182
+newton iterations:	2
+dt: 				0.00508689 days
+time: 				2.60459 days [3 JAN 2000]
+Pressure. min 259.701; max 300.191; avg 296.987
+SWAT. min 0; max 0.999968; avg 0.199955
+SGAS. min 0; max 0.2189; avg 0.121153
+RS.   min 161.472; max 250.798; avg 219.448
+time iteration: 	183
+newton iterations:	2
+dt: 				0.00794826 days
+time: 				2.61253 days [3 JAN 2000]
+Pressure. min 259.659; max 300.191; avg 296.982
+SWAT. min 0; max 0.999968; avg 0.199955
+SGAS. min 0; max 0.218924; avg 0.121155
+RS.   min 161.472; max 250.798; avg 219.455
+time iteration: 	184
+newton iterations:	2
+dt: 				0.0124192 days
+time: 				2.62495 days [3 JAN 2000]
+Pressure. min 259.593; max 300.192; avg 296.974
+SWAT. min 0; max 0.999967; avg 0.199955
+SGAS. min 0; max 0.218962; avg 0.121159
+RS.   min 161.472; max 250.799; avg 219.465
+time iteration: 	185
+newton iterations:	2
+dt: 				0.0194049 days
+time: 				2.64436 days [3 JAN 2000]
+Pressure. min 259.491; max 300.192; avg 296.962
+SWAT. min 0; max 0.999967; avg 0.199955
+SGAS. min 0; max 0.21902; avg 0.121165
+RS.   min 161.472; max 250.799; avg 219.48
+time iteration: 	186
+newton iterations:	7
+dt: 				0.0303202 days
+time: 				2.67468 days [3 JAN 2000]
+Pressure. min 259.335; max 300.194; avg 296.944
+SWAT. min 0; max 0.999967; avg 0.199954
+SGAS. min 0; max 0.219109; avg 0.121175
+RS.   min 161.472; max 250.801; avg 219.503
+Recalculation due to too many iterations
+New time step 0.00473753 days, old is 0.0473753
+time iteration: 	187
+newton iterations:	1
+dt: 				0.00473753 days
+time: 				2.67942 days [3 JAN 2000]
+Pressure. min 259.311; max 300.194; avg 296.941
+SWAT. min 0; max 0.999967; avg 0.199954
+SGAS. min 0; max 0.219123; avg 0.121177
+RS.   min 161.472; max 250.801; avg 219.507
+time iteration: 	188
+newton iterations:	2
+dt: 				0.00592191 days
+time: 				2.68534 days [3 JAN 2000]
+Pressure. min 259.281; max 300.194; avg 296.937
+SWAT. min 0; max 0.999967; avg 0.199954
+SGAS. min 0; max 0.219141; avg 0.121179
+RS.   min 161.472; max 250.801; avg 219.511
+time iteration: 	189
+newton iterations:	2
+dt: 				0.00925299 days
+time: 				2.69459 days [3 JAN 2000]
+Pressure. min 259.234; max 300.195; avg 296.931
+SWAT. min 0; max 0.999967; avg 0.199954
+SGAS. min 0; max 0.219168; avg 0.121181
+RS.   min 161.472; max 250.802; avg 219.518
+time iteration: 	190
+newton iterations:	2
+dt: 				0.0144578 days
+time: 				2.70905 days [3 JAN 2000]
+Pressure. min 259.162; max 300.195; avg 296.922
+SWAT. min 0; max 0.999966; avg 0.199954
+SGAS. min 0; max 0.21921; avg 0.121186
+RS.   min 161.472; max 250.802; avg 219.528
+time iteration: 	191
+newton iterations:	2
+dt: 				0.0225903 days
+time: 				2.73164 days [3 JAN 2000]
+Pressure. min 259.051; max 300.197; avg 296.909
+SWAT. min 0; max 0.999966; avg 0.199953
+SGAS. min 0; max 0.219275; avg 0.121193
+RS.   min 161.472; max 250.803; avg 219.544
+Recalculation due to too many iterations
+New time step 0.00352974 days, old is 0.0352974
+time iteration: 	192
+newton iterations:	1
+dt: 				0.00352974 days
+time: 				2.73517 days [3 JAN 2000]
+Pressure. min 259.034; max 300.197; avg 296.906
+SWAT. min 0; max 0.999966; avg 0.199953
+SGAS. min 0; max 0.219285; avg 0.121194
+RS.   min 161.472; max 250.803; avg 219.547
+time iteration: 	193
+newton iterations:	1
+dt: 				0.00441217 days
+time: 				2.73958 days [3 JAN 2000]
+Pressure. min 259.012; max 300.197; avg 296.904
+SWAT. min 0; max 0.999966; avg 0.199953
+SGAS. min 0; max 0.219298; avg 0.121196
+RS.   min 161.472; max 250.803; avg 219.55
+time iteration: 	194
+newton iterations:	2
+dt: 				0.00689401 days
+time: 				2.74648 days [3 JAN 2000]
+Pressure. min 258.979; max 300.197; avg 296.899
+SWAT. min 0; max 0.999966; avg 0.199953
+SGAS. min 0; max 0.219318; avg 0.121198
+RS.   min 161.472; max 250.804; avg 219.555
+time iteration: 	195
+newton iterations:	2
+dt: 				0.0107719 days
+time: 				2.75725 days [3 JAN 2000]
+Pressure. min 258.927; max 300.198; avg 296.893
+SWAT. min 0; max 0.999966; avg 0.199953
+SGAS. min 0; max 0.219348; avg 0.121201
+RS.   min 161.472; max 250.804; avg 219.562
+time iteration: 	196
+newton iterations:	2
+dt: 				0.0168311 days
+time: 				2.77408 days [3 JAN 2000]
+Pressure. min 258.847; max 300.198; avg 296.883
+SWAT. min 0; max 0.999966; avg 0.199952
+SGAS. min 0; max 0.219396; avg 0.121207
+RS.   min 161.472; max 250.805; avg 219.573
+time iteration: 	197
+newton iterations:	3
+dt: 				0.0262986 days
+time: 				2.80038 days [3 JAN 2000]
+Pressure. min 258.725; max 300.2; avg 296.867
+SWAT. min 0; max 0.999965; avg 0.199952
+SGAS. min 0; max 0.21947; avg 0.121215
+RS.   min 161.472; max 250.806; avg 219.59
+time iteration: 	198
+newton iterations:	4
+dt: 				0.0410915 days
+time: 				2.84147 days [3 JAN 2000]
+Pressure. min 258.539; max 300.202; avg 296.842
+SWAT. min 0; max 0.999965; avg 0.199951
+SGAS. min 0; max 0.219583; avg 0.121227
+RS.   min 161.472; max 250.808; avg 219.616
+time iteration: 	199
+newton iterations:	2
+dt: 				0.0642055 days
+time: 				2.90567 days [3 JAN 2000]
+Pressure. min 258.262; max 300.204; avg 296.804
+SWAT. min 0; max 0.999964; avg 0.19995
+SGAS. min 0; max 0.219756; avg 0.121247
+RS.   min 161.472; max 250.81; avg 219.656
+Recalculation due to too many iterations
+New time step 0.0100321 days, old is 0.100321
+time iteration: 	200
+newton iterations:	2
+dt: 				0.0100321 days
+time: 				2.91571 days [3 JAN 2000]
+Pressure. min 258.219; max 300.205; avg 296.798
+SWAT. min 0; max 0.999964; avg 0.19995
+SGAS. min 0; max 0.219783; avg 0.12125
+RS.   min 161.472; max 250.811; avg 219.662
+time iteration: 	201
+newton iterations:	2
+dt: 				0.0125401 days
+time: 				2.92825 days [3 JAN 2000]
+Pressure. min 258.165; max 300.205; avg 296.791
+SWAT. min 0; max 0.999964; avg 0.19995
+SGAS. min 0; max 0.219817; avg 0.121254
+RS.   min 161.472; max 250.811; avg 219.67
+time iteration: 	202
+newton iterations:	2
+dt: 				0.019594 days
+time: 				2.94784 days [3 JAN 2000]
+Pressure. min 258.083; max 300.206; avg 296.78
+SWAT. min 0; max 0.999963; avg 0.19995
+SGAS. min 0; max 0.219869; avg 0.12126
+RS.   min 161.472; max 250.812; avg 219.682
+time iteration: 	203
+newton iterations:	3
+dt: 				0.0306156 days
+time: 				2.97846 days [3 JAN 2000]
+Pressure. min 257.958; max 300.207; avg 296.762
+SWAT. min 0; max 0.999963; avg 0.199949
+SGAS. min 0; max 0.219949; avg 0.121269
+RS.   min 161.472; max 250.813; avg 219.7
+time iteration: 	204
+newton iterations:	3
+dt: 				0.0478368 days
+time: 				3.02629 days [4 JAN 2000]
+Pressure. min 257.768; max 300.209; avg 296.734
+SWAT. min 0; max 0.999962; avg 0.199948
+SGAS. min 0; max 0.220072; avg 0.121284
+RS.   min 161.472; max 250.815; avg 219.726
+time iteration: 	205
+newton iterations:	3
+dt: 				0.0725491 days
+time: 				3.09884 days [4 JAN 2000]
+Pressure. min 257.495; max 300.212; avg 296.693
+SWAT. min 0; max 0.999962; avg 0.199947
+SGAS. min 0; max 0.220254; avg 0.121306
+RS.   min 161.472; max 250.818; avg 219.764
+Recalculation due to too many iterations
+New time step 0.0113358 days, old is 0.113358
+time iteration: 	206
+newton iterations:	2
+dt: 				0.0113358 days
+time: 				3.11018 days [4 JAN 2000]
+Pressure. min 257.452; max 300.213; avg 296.687
+SWAT. min 0; max 0.999961; avg 0.199947
+SGAS. min 0; max 0.220283; avg 0.121309
+RS.   min 161.472; max 250.818; avg 219.77
+time iteration: 	207
+newton iterations:	2
+dt: 				0.0141697 days
+time: 				3.12435 days [4 JAN 2000]
+Pressure. min 257.4; max 300.214; avg 296.679
+SWAT. min 0; max 0.999961; avg 0.199947
+SGAS. min 0; max 0.220318; avg 0.121313
+RS.   min 161.472; max 250.819; avg 219.777
+time iteration: 	208
+newton iterations:	1
+dt: 				0.0221402 days
+time: 				3.14649 days [4 JAN 2000]
+Pressure. min 257.319; max 300.214; avg 296.666
+SWAT. min 0; max 0.999961; avg 0.199947
+SGAS. min 0; max 0.220372; avg 0.12132
+RS.   min 161.472; max 250.819; avg 219.789
+time iteration: 	209
+newton iterations:	9
+dt: 				0.0345941 days
+time: 				3.18108 days [4 JAN 2000]
+Pressure. min 257.196; max 300.216; avg 296.647
+SWAT. min 0; max 0.99996; avg 0.199946
+SGAS. min 0; max 0.220457; avg 0.12133
+RS.   min 161.472; max 250.821; avg 219.806
+time iteration: 	210
+newton iterations:	3
+dt: 				0.0540533 days
+time: 				3.23514 days [4 JAN 2000]
+Pressure. min 257.01; max 300.218; avg 296.617
+SWAT. min 0; max 0.99996; avg 0.199945
+SGAS. min 0; max 0.220586; avg 0.121346
+RS.   min 161.472; max 250.823; avg 219.832
+Recalculation due to too many iterations
+New time step 0.00844582 days, old is 0.0844582
+time iteration: 	211
+newton iterations:	2
+dt: 				0.00844582 days
+time: 				3.24358 days [4 JAN 2000]
+Pressure. min 256.981; max 300.219; avg 296.613
+SWAT. min 0; max 0.99996; avg 0.199945
+SGAS. min 0; max 0.220606; avg 0.121348
+RS.   min 161.472; max 250.823; avg 219.837
+time iteration: 	212
+newton iterations:	2
+dt: 				0.0105573 days
+time: 				3.25414 days [4 JAN 2000]
+Pressure. min 256.946; max 300.219; avg 296.607
+SWAT. min 0; max 0.99996; avg 0.199945
+SGAS. min 0; max 0.220631; avg 0.121351
+RS.   min 161.472; max 250.824; avg 219.842
+time iteration: 	213
+newton iterations:	2
+dt: 				0.0164957 days
+time: 				3.27063 days [4 JAN 2000]
+Pressure. min 256.89; max 300.22; avg 296.598
+SWAT. min 0; max 0.999959; avg 0.199945
+SGAS. min 0; max 0.22067; avg 0.121356
+RS.   min 161.472; max 250.824; avg 219.849
+time iteration: 	214
+newton iterations:	2
+dt: 				0.0257746 days
+time: 				3.29641 days [4 JAN 2000]
+Pressure. min 256.805; max 300.221; avg 296.584
+SWAT. min 0; max 0.999959; avg 0.199944
+SGAS. min 0; max 0.220731; avg 0.121364
+RS.   min 161.472; max 250.825; avg 219.861
+time iteration: 	215
+newton iterations:	3
+dt: 				0.0402728 days
+time: 				3.33668 days [4 JAN 2000]
+Pressure. min 256.676; max 300.222; avg 296.562
+SWAT. min 0; max 0.999959; avg 0.199944
+SGAS. min 0; max 0.220824; avg 0.121375
+RS.   min 161.472; max 250.827; avg 219.881
+time iteration: 	216
+newton iterations:	2
+dt: 				0.0629263 days
+time: 				3.39961 days [4 JAN 2000]
+Pressure. min 256.482; max 300.225; avg 296.528
+SWAT. min 0; max 0.999958; avg 0.199943
+SGAS. min 0; max 0.220966; avg 0.121393
+RS.   min 161.472; max 250.829; avg 219.912
+time iteration: 	217
+newton iterations:	2
+dt: 				0.0983223 days
+time: 				3.49793 days [4 JAN 2000]
+Pressure. min 256.196; max 300.229; avg 296.476
+SWAT. min 0; max 0.999957; avg 0.199942
+SGAS. min 0; max 0.221185; avg 0.121421
+RS.   min 161.472; max 250.832; avg 219.959
+Recalculation due to too many iterations
+New time step 0.0153629 days, old is 0.153629
+time iteration: 	218
+newton iterations:	2
+dt: 				0.0153629 days
+time: 				3.51329 days [4 JAN 2000]
+Pressure. min 256.152; max 300.229; avg 296.468
+SWAT. min 0; max 0.999956; avg 0.199941
+SGAS. min 0; max 0.221219; avg 0.121425
+RS.   min 161.472; max 250.833; avg 219.969
+time iteration: 	219
+newton iterations:	2
+dt: 				0.0192036 days
+time: 				3.5325 days [4 JAN 2000]
+Pressure. min 256.097; max 300.23; avg 296.458
+SWAT. min 0; max 0.999956; avg 0.199941
+SGAS. min 0; max 0.221262; avg 0.121431
+RS.   min 161.472; max 250.834; avg 219.98
+time iteration: 	220
+newton iterations:	4
+dt: 				0.0300056 days
+time: 				3.5625 days [4 JAN 2000]
+Pressure. min 256.013; max 300.231; avg 296.443
+SWAT. min 0; max 0.999956; avg 0.199941
+SGAS. min 0; max 0.221328; avg 0.121439
+RS.   min 161.472; max 250.835; avg 219.997
+time iteration: 	221
+newton iterations:	8
+dt: 				0.0468837 days
+time: 				3.60939 days [4 JAN 2000]
+Pressure. min 255.886; max 300.233; avg 296.419
+SWAT. min 0; max 0.999955; avg 0.19994
+SGAS. min 0; max 0.221429; avg 0.121452
+RS.   min 161.472; max 250.836; avg 220.023
+time iteration: 	222
+newton iterations:	2
+dt: 				0.0689535 days
+time: 				3.67834 days [4 JAN 2000]
+Pressure. min 255.706; max 300.236; avg 296.384
+SWAT. min 0; max 0.999954; avg 0.199939
+SGAS. min 0; max 0.221575; avg 0.121471
+RS.   min 161.472; max 250.839; avg 220.06
+Recalculation due to too many iterations
+New time step 0.010774 days, old is 0.10774
+time iteration: 	223
+newton iterations:	2
+dt: 				0.010774 days
+time: 				3.68911 days [4 JAN 2000]
+Pressure. min 255.679; max 300.236; avg 296.378
+SWAT. min 0; max 0.999954; avg 0.199939
+SGAS. min 0; max 0.221598; avg 0.121474
+RS.   min 161.472; max 250.839; avg 220.066
+time iteration: 	224
+newton iterations:	2
+dt: 				0.0134675 days
+time: 				3.70258 days [4 JAN 2000]
+Pressure. min 255.644; max 300.237; avg 296.371
+SWAT. min 0; max 0.999954; avg 0.199939
+SGAS. min 0; max 0.221626; avg 0.121478
+RS.   min 161.472; max 250.84; avg 220.074
+time iteration: 	225
+newton iterations:	2
+dt: 				0.0210429 days
+time: 				3.72362 days [4 JAN 2000]
+Pressure. min 255.591; max 300.237; avg 296.361
+SWAT. min 0; max 0.999954; avg 0.199938
+SGAS. min 0; max 0.22167; avg 0.121484
+RS.   min 161.472; max 250.84; avg 220.086
+time iteration: 	226
+newton iterations:	2
+dt: 				0.0328796 days
+time: 				3.7565 days [4 JAN 2000]
+Pressure. min 255.509; max 300.239; avg 296.344
+SWAT. min 0; max 0.999953; avg 0.199938
+SGAS. min 0; max 0.221738; avg 0.121493
+RS.   min 161.472; max 250.842; avg 220.105
+Recalculation due to too many iterations
+New time step 0.00513744 days, old is 0.0513744
+time iteration: 	227
+newton iterations:	1
+dt: 				0.00513744 days
+time: 				3.76164 days [4 JAN 2000]
+Pressure. min 255.496; max 300.239; avg 296.341
+SWAT. min 0; max 0.999953; avg 0.199938
+SGAS. min 0; max 0.221749; avg 0.121494
+RS.   min 161.472; max 250.842; avg 220.107
+time iteration: 	228
+newton iterations:	2
+dt: 				0.0064218 days
+time: 				3.76806 days [4 JAN 2000]
+Pressure. min 255.48; max 300.239; avg 296.338
+SWAT. min 0; max 0.999953; avg 0.199938
+SGAS. min 0; max 0.221762; avg 0.121496
+RS.   min 161.472; max 250.842; avg 220.111
+time iteration: 	229
+newton iterations:	2
+dt: 				0.0100341 days
+time: 				3.7781 days [4 JAN 2000]
+Pressure. min 255.455; max 300.24; avg 296.333
+SWAT. min 0; max 0.999953; avg 0.199938
+SGAS. min 0; max 0.221782; avg 0.121499
+RS.   min 161.472; max 250.842; avg 220.116
+time iteration: 	230
+newton iterations:	2
+dt: 				0.0156782 days
+time: 				3.79377 days [4 JAN 2000]
+Pressure. min 255.417; max 300.24; avg 296.325
+SWAT. min 0; max 0.999953; avg 0.199937
+SGAS. min 0; max 0.221815; avg 0.121503
+RS.   min 161.472; max 250.843; avg 220.125
+time iteration: 	231
+newton iterations:	2
+dt: 				0.0244972 days
+time: 				3.81827 days [4 JAN 2000]
+Pressure. min 255.358; max 300.241; avg 296.313
+SWAT. min 0; max 0.999953; avg 0.199937
+SGAS. min 0; max 0.221864; avg 0.121509
+RS.   min 161.472; max 250.844; avg 220.138
+time iteration: 	232
+newton iterations:	10
+dt: 				0.0382769 days
+time: 				3.85655 days [4 JAN 2000]
+Pressure. min 255.268; max 300.243; avg 296.294
+SWAT. min 0; max 0.999952; avg 0.199937
+SGAS. min 0; max 0.221941; avg 0.12152
+RS.   min 161.472; max 250.845; avg 220.159
+Recalculation due to too many iterations
+New time step 0.00562288 days, old is 0.0562288
+time iteration: 	233
+newton iterations:	1
+dt: 				0.00562288 days
+time: 				3.86217 days [4 JAN 2000]
+Pressure. min 255.255; max 300.243; avg 296.291
+SWAT. min 0; max 0.999952; avg 0.199937
+SGAS. min 0; max 0.221952; avg 0.121521
+RS.   min 161.472; max 250.845; avg 220.162
+time iteration: 	234
+newton iterations:	2
+dt: 				0.0070286 days
+time: 				3.8692 days [4 JAN 2000]
+Pressure. min 255.239; max 300.243; avg 296.288
+SWAT. min 0; max 0.999952; avg 0.199936
+SGAS. min 0; max 0.221966; avg 0.121523
+RS.   min 161.472; max 250.845; avg 220.166
+time iteration: 	235
+newton iterations:	2
+dt: 				0.0109822 days
+time: 				3.88018 days [4 JAN 2000]
+Pressure. min 255.213; max 300.243; avg 296.283
+SWAT. min 0; max 0.999952; avg 0.199936
+SGAS. min 0; max 0.221988; avg 0.121526
+RS.   min 161.472; max 250.846; avg 220.173
+time iteration: 	236
+newton iterations:	2
+dt: 				0.0171597 days
+time: 				3.89734 days [4 JAN 2000]
+Pressure. min 255.174; max 300.244; avg 296.274
+SWAT. min 0; max 0.999952; avg 0.199936
+SGAS. min 0; max 0.222022; avg 0.121531
+RS.   min 161.472; max 250.846; avg 220.182
+time iteration: 	237
+newton iterations:	2
+dt: 				0.026812 days
+time: 				3.92415 days [4 JAN 2000]
+Pressure. min 255.113; max 300.245; avg 296.261
+SWAT. min 0; max 0.999951; avg 0.199936
+SGAS. min 0; max 0.222075; avg 0.121538
+RS.   min 161.472; max 250.847; avg 220.198
+Recalculation due to too many iterations
+New time step 0.00418937 days, old is 0.0418937
+time iteration: 	238
+newton iterations:	1
+dt: 				0.00418937 days
+time: 				3.92834 days [4 JAN 2000]
+Pressure. min 255.104; max 300.245; avg 296.259
+SWAT. min 0; max 0.999951; avg 0.199936
+SGAS. min 0; max 0.222083; avg 0.121539
+RS.   min 161.472; max 250.848; avg 220.2
+time iteration: 	239
+newton iterations:	1
+dt: 				0.00523672 days
+time: 				3.93358 days [4 JAN 2000]
+Pressure. min 255.092; max 300.245; avg 296.256
+SWAT. min 0; max 0.999951; avg 0.199936
+SGAS. min 0; max 0.222094; avg 0.12154
+RS.   min 161.472; max 250.848; avg 220.203
+time iteration: 	240
+newton iterations:	2
+dt: 				0.00818237 days
+time: 				3.94176 days [4 JAN 2000]
+Pressure. min 255.074; max 300.246; avg 296.252
+SWAT. min 0; max 0.999951; avg 0.199936
+SGAS. min 0; max 0.22211; avg 0.121543
+RS.   min 161.472; max 250.848; avg 220.207
+time iteration: 	241
+newton iterations:	2
+dt: 				0.012785 days
+time: 				3.95455 days [4 JAN 2000]
+Pressure. min 255.045; max 300.246; avg 296.246
+SWAT. min 0; max 0.999951; avg 0.199935
+SGAS. min 0; max 0.222135; avg 0.121546
+RS.   min 161.472; max 250.848; avg 220.214
+time iteration: 	242
+newton iterations:	3
+dt: 				0.0199765 days
+time: 				3.97452 days [4 JAN 2000]
+Pressure. min 255.001; max 300.247; avg 296.237
+SWAT. min 0; max 0.999951; avg 0.199935
+SGAS. min 0; max 0.222173; avg 0.121551
+RS.   min 161.472; max 250.849; avg 220.225
+time iteration: 	243
+newton iterations:	2
+dt: 				0.0312133 days
+time: 				4.00574 days [5 JAN 2000]
+Pressure. min 254.934; max 300.248; avg 296.221
+SWAT. min 0; max 0.99995; avg 0.199935
+SGAS. min 0; max 0.222233; avg 0.12156
+RS.   min 161.472; max 250.85; avg 220.242
+time iteration: 	244
+newton iterations:	7
+dt: 				0.0487707 days
+time: 				4.05451 days [5 JAN 2000]
+Pressure. min 254.831; max 300.25; avg 296.198
+SWAT. min 0; max 0.99995; avg 0.199934
+SGAS. min 0; max 0.222326; avg 0.121573
+RS.   min 161.472; max 250.852; avg 220.268
+time iteration: 	245
+newton iterations:	2
+dt: 				0.0633754 days
+time: 				4.11788 days [5 JAN 2000]
+Pressure. min 254.701; max 300.252; avg 296.168
+SWAT. min 0; max 0.999949; avg 0.199933
+SGAS. min 0; max 0.222444; avg 0.121589
+RS.   min 161.472; max 250.854; avg 220.302
+Recalculation due to too many iterations
+New time step 0.00990241 days, old is 0.0990241
+time iteration: 	246
+newton iterations:	2
+dt: 				0.00990241 days
+time: 				4.12779 days [5 JAN 2000]
+Pressure. min 254.681; max 300.253; avg 296.163
+SWAT. min 0; max 0.999949; avg 0.199933
+SGAS. min 0; max 0.222462; avg 0.121592
+RS.   min 161.472; max 250.854; avg 220.308
+time iteration: 	247
+newton iterations:	2
+dt: 				0.012378 days
+time: 				4.14016 days [5 JAN 2000]
+Pressure. min 254.656; max 300.253; avg 296.157
+SWAT. min 0; max 0.999949; avg 0.199933
+SGAS. min 0; max 0.222485; avg 0.121595
+RS.   min 161.472; max 250.855; avg 220.315
+time iteration: 	248
+newton iterations:	2
+dt: 				0.0193406 days
+time: 				4.1595 days [5 JAN 2000]
+Pressure. min 254.617; max 300.254; avg 296.148
+SWAT. min 0; max 0.999948; avg 0.199933
+SGAS. min 0; max 0.222521; avg 0.1216
+RS.   min 161.472; max 250.855; avg 220.326
+time iteration: 	249
+newton iterations:	2
+dt: 				0.0302198 days
+time: 				4.18972 days [5 JAN 2000]
+Pressure. min 254.558; max 300.255; avg 296.134
+SWAT. min 0; max 0.999948; avg 0.199932
+SGAS. min 0; max 0.222576; avg 0.121608
+RS.   min 161.472; max 250.856; avg 220.343
+Recalculation due to too many iterations
+New time step 0.00472184 days, old is 0.0472184
+time iteration: 	250
+newton iterations:	1
+dt: 				0.00472184 days
+time: 				4.19445 days [5 JAN 2000]
+Pressure. min 254.548; max 300.255; avg 296.132
+SWAT. min 0; max 0.999948; avg 0.199932
+SGAS. min 0; max 0.222585; avg 0.121609
+RS.   min 161.472; max 250.856; avg 220.345
+time iteration: 	251
+newton iterations:	1
+dt: 				0.0059023 days
+time: 				4.20035 days [5 JAN 2000]
+Pressure. min 254.537; max 300.255; avg 296.129
+SWAT. min 0; max 0.999948; avg 0.199932
+SGAS. min 0; max 0.222596; avg 0.121611
+RS.   min 161.472; max 250.857; avg 220.349
+time iteration: 	252
+newton iterations:	2
+dt: 				0.00922234 days
+time: 				4.20957 days [5 JAN 2000]
+Pressure. min 254.519; max 300.256; avg 296.125
+SWAT. min 0; max 0.999948; avg 0.199932
+SGAS. min 0; max 0.222612; avg 0.121613
+RS.   min 161.472; max 250.857; avg 220.354
+time iteration: 	253
+newton iterations:	2
+dt: 				0.0144099 days
+time: 				4.22398 days [5 JAN 2000]
+Pressure. min 254.491; max 300.256; avg 296.118
+SWAT. min 0; max 0.999948; avg 0.199932
+SGAS. min 0; max 0.222638; avg 0.121617
+RS.   min 161.472; max 250.857; avg 220.362
+time iteration: 	254
+newton iterations:	3
+dt: 				0.0225155 days
+time: 				4.2465 days [5 JAN 2000]
+Pressure. min 254.448; max 300.257; avg 296.107
+SWAT. min 0; max 0.999947; avg 0.199932
+SGAS. min 0; max 0.222679; avg 0.121623
+RS.   min 161.472; max 250.858; avg 220.374
+time iteration: 	255
+newton iterations:	7
+dt: 				0.0351804 days
+time: 				4.28168 days [5 JAN 2000]
+Pressure. min 254.381; max 300.258; avg 296.091
+SWAT. min 0; max 0.999947; avg 0.199931
+SGAS. min 0; max 0.222742; avg 0.121632
+RS.   min 161.472; max 250.859; avg 220.393
+Recalculation due to too many iterations
+New time step 0.00549694 days, old is 0.0549694
+time iteration: 	256
+newton iterations:	2
+dt: 				0.00549694 days
+time: 				4.28717 days [5 JAN 2000]
+Pressure. min 254.371; max 300.258; avg 296.089
+SWAT. min 0; max 0.999947; avg 0.199931
+SGAS. min 0; max 0.222751; avg 0.121633
+RS.   min 161.472; max 250.859; avg 220.396
+time iteration: 	257
+newton iterations:	2
+dt: 				0.00687118 days
+time: 				4.29404 days [5 JAN 2000]
+Pressure. min 254.358; max 300.259; avg 296.085
+SWAT. min 0; max 0.999947; avg 0.199931
+SGAS. min 0; max 0.222764; avg 0.121635
+RS.   min 161.472; max 250.86; avg 220.4
+time iteration: 	258
+newton iterations:	2
+dt: 				0.0107362 days
+time: 				4.30478 days [5 JAN 2000]
+Pressure. min 254.338; max 300.259; avg 296.081
+SWAT. min 0; max 0.999947; avg 0.199931
+SGAS. min 0; max 0.222783; avg 0.121637
+RS.   min 161.472; max 250.86; avg 220.406
+time iteration: 	259
+newton iterations:	3
+dt: 				0.0167753 days
+time: 				4.32156 days [5 JAN 2000]
+Pressure. min 254.307; max 300.26; avg 296.073
+SWAT. min 0; max 0.999946; avg 0.199931
+SGAS. min 0; max 0.222812; avg 0.121642
+RS.   min 161.472; max 250.861; avg 220.415
+time iteration: 	260
+newton iterations:	3
+dt: 				0.0262115 days
+time: 				4.34777 days [5 JAN 2000]
+Pressure. min 254.259; max 300.26; avg 296.061
+SWAT. min 0; max 0.999946; avg 0.19993
+SGAS. min 0; max 0.222858; avg 0.121648
+RS.   min 161.472; max 250.861; avg 220.429
+time iteration: 	261
+newton iterations:	5
+dt: 				0.0409554 days
+time: 				4.38872 days [5 JAN 2000]
+Pressure. min 254.186; max 300.262; avg 296.042
+SWAT. min 0; max 0.999946; avg 0.19993
+SGAS. min 0; max 0.222929; avg 0.121659
+RS.   min 161.472; max 250.863; avg 220.451
+Recalculation due to too many iterations
+New time step 0.00627218 days, old is 0.0627218
+time iteration: 	262
+newton iterations:	1
+dt: 				0.00627218 days
+time: 				4.395 days [5 JAN 2000]
+Pressure. min 254.175; max 300.262; avg 296.039
+SWAT. min 0; max 0.999945; avg 0.19993
+SGAS. min 0; max 0.22294; avg 0.12166
+RS.   min 161.472; max 250.863; avg 220.454
+time iteration: 	263
+newton iterations:	2
+dt: 				0.00784022 days
+time: 				4.40284 days [5 JAN 2000]
+Pressure. min 254.161; max 300.262; avg 296.036
+SWAT. min 0; max 0.999945; avg 0.19993
+SGAS. min 0; max 0.222954; avg 0.121662
+RS.   min 161.472; max 250.863; avg 220.459
+time iteration: 	264
+newton iterations:	2
+dt: 				0.0122503 days
+time: 				4.41509 days [5 JAN 2000]
+Pressure. min 254.139; max 300.263; avg 296.03
+SWAT. min 0; max 0.999945; avg 0.19993
+SGAS. min 0; max 0.222975; avg 0.121666
+RS.   min 161.472; max 250.864; avg 220.465
+time iteration: 	265
+newton iterations:	2
+dt: 				0.0191412 days
+time: 				4.43423 days [5 JAN 2000]
+Pressure. min 254.106; max 300.264; avg 296.021
+SWAT. min 0; max 0.999945; avg 0.199929
+SGAS. min 0; max 0.223007; avg 0.12167
+RS.   min 161.472; max 250.864; avg 220.476
+time iteration: 	266
+newton iterations:	4
+dt: 				0.0299081 days
+time: 				4.46414 days [5 JAN 2000]
+Pressure. min 254.054; max 300.265; avg 296.008
+SWAT. min 0; max 0.999945; avg 0.199929
+SGAS. min 0; max 0.223058; avg 0.121678
+RS.   min 161.472; max 250.865; avg 220.492
+Recalculation due to too many iterations
+New time step 0.00467314 days, old is 0.0467314
+time iteration: 	267
+newton iterations:	1
+dt: 				0.00467314 days
+time: 				4.46881 days [5 JAN 2000]
+Pressure. min 254.046; max 300.265; avg 296.006
+SWAT. min 0; max 0.999945; avg 0.199929
+SGAS. min 0; max 0.223066; avg 0.121679
+RS.   min 161.472; max 250.865; avg 220.494
+time iteration: 	268
+newton iterations:	1
+dt: 				0.00584142 days
+time: 				4.47465 days [5 JAN 2000]
+Pressure. min 254.036; max 300.265; avg 296.003
+SWAT. min 0; max 0.999944; avg 0.199929
+SGAS. min 0; max 0.223076; avg 0.121681
+RS.   min 161.472; max 250.865; avg 220.497
+time iteration: 	269
+newton iterations:	2
+dt: 				0.00912722 days
+time: 				4.48378 days [5 JAN 2000]
+Pressure. min 254.02; max 300.265; avg 295.999
+SWAT. min 0; max 0.999944; avg 0.199929
+SGAS. min 0; max 0.223091; avg 0.121683
+RS.   min 161.472; max 250.866; avg 220.502
+time iteration: 	270
+newton iterations:	2
+dt: 				0.0142613 days
+time: 				4.49804 days [5 JAN 2000]
+Pressure. min 253.996; max 300.266; avg 295.993
+SWAT. min 0; max 0.999944; avg 0.199929
+SGAS. min 0; max 0.223115; avg 0.121686
+RS.   min 161.472; max 250.866; avg 220.51
+time iteration: 	271
+newton iterations:	2
+dt: 				0.0222833 days
+time: 				4.52032 days [5 JAN 2000]
+Pressure. min 253.959; max 300.266; avg 295.983
+SWAT. min 0; max 0.999944; avg 0.199928
+SGAS. min 0; max 0.223153; avg 0.121692
+RS.   min 161.472; max 250.867; avg 220.522
+time iteration: 	272
+newton iterations:	6
+dt: 				0.0348176 days
+time: 				4.55514 days [5 JAN 2000]
+Pressure. min 253.901; max 300.268; avg 295.967
+SWAT. min 0; max 0.999943; avg 0.199928
+SGAS. min 0; max 0.223211; avg 0.121701
+RS.   min 161.472; max 250.868; avg 220.54
+time iteration: 	273
+newton iterations:	4
+dt: 				0.0544025 days
+time: 				4.60954 days [5 JAN 2000]
+Pressure. min 253.813; max 300.269; avg 295.943
+SWAT. min 0; max 0.999943; avg 0.199927
+SGAS. min 0; max 0.2233; avg 0.121714
+RS.   min 161.472; max 250.87; avg 220.569
+time iteration: 	274
+newton iterations:	6
+dt: 				0.0775674 days
+time: 				4.68711 days [5 JAN 2000]
+Pressure. min 253.691; max 300.272; avg 295.909
+SWAT. min 0; max 0.999942; avg 0.199926
+SGAS. min 0; max 0.223425; avg 0.121733
+RS.   min 161.472; max 250.872; avg 220.609
+Recalculation due to too many iterations
+New time step 0.0103382 days, old is 0.103382
+time iteration: 	275
+newton iterations:	2
+dt: 				0.0103382 days
+time: 				4.69745 days [5 JAN 2000]
+Pressure. min 253.675; max 300.272; avg 295.904
+SWAT. min 0; max 0.999942; avg 0.199926
+SGAS. min 0; max 0.223441; avg 0.121736
+RS.   min 161.472; max 250.872; avg 220.615
+time iteration: 	276
+newton iterations:	2
+dt: 				0.0129228 days
+time: 				4.71037 days [5 JAN 2000]
+Pressure. min 253.655; max 300.273; avg 295.899
+SWAT. min 0; max 0.999942; avg 0.199926
+SGAS. min 0; max 0.223462; avg 0.121739
+RS.   min 161.472; max 250.873; avg 220.622
+time iteration: 	277
+newton iterations:	2
+dt: 				0.0201918 days
+time: 				4.73056 days [5 JAN 2000]
+Pressure. min 253.624; max 300.273; avg 295.89
+SWAT. min 0; max 0.999941; avg 0.199926
+SGAS. min 0; max 0.223494; avg 0.121744
+RS.   min 161.472; max 250.873; avg 220.633
+time iteration: 	278
+newton iterations:	4
+dt: 				0.0315497 days
+time: 				4.76211 days [5 JAN 2000]
+Pressure. min 253.576; max 300.274; avg 295.876
+SWAT. min 0; max 0.999941; avg 0.199925
+SGAS. min 0; max 0.223544; avg 0.121752
+RS.   min 161.472; max 250.874; avg 220.649
+time iteration: 	279
+newton iterations:	3
+dt: 				0.0423601 days
+time: 				4.80447 days [5 JAN 2000]
+Pressure. min 253.512; max 300.276; avg 295.858
+SWAT. min 0; max 0.99994; avg 0.199925
+SGAS. min 0; max 0.22361; avg 0.121762
+RS.   min 161.472; max 250.875; avg 220.672
+time iteration: 	280
+newton iterations:	5
+dt: 				0.0558438 days
+time: 				4.86032 days [5 JAN 2000]
+Pressure. min 253.43; max 300.278; avg 295.834
+SWAT. min 0; max 0.99994; avg 0.199924
+SGAS. min 0; max 0.223696; avg 0.121776
+RS.   min 161.472; max 250.877; avg 220.701
+time iteration: 	281
+newton iterations:	2
+dt: 				0.0695832 days
+time: 				4.9299 days [5 JAN 2000]
+Pressure. min 253.331; max 300.28; avg 295.804
+SWAT. min 0; max 0.999939; avg 0.199923
+SGAS. min 0; max 0.223802; avg 0.121792
+RS.   min 161.472; max 250.879; avg 220.741
+time iteration: 	282
+newton iterations:	2
+dt: 				0.108724 days
+time: 				5.03862 days [6 JAN 2000]
+Pressure. min 253.182; max 300.283; avg 295.759
+SWAT. min 0; max 0.999938; avg 0.199922
+SGAS. min 0; max 0.223963; avg 0.121818
+RS.   min 161.472; max 250.882; avg 220.804
+Recalculation due to too many iterations
+New time step 0.0169881 days, old is 0.169881
+time iteration: 	283
+newton iterations:	2
+dt: 				0.0169881 days
+time: 				5.05561 days [6 JAN 2000]
+Pressure. min 253.159; max 300.284; avg 295.751
+SWAT. min 0; max 0.999937; avg 0.199922
+SGAS. min 0; max 0.223989; avg 0.121822
+RS.   min 161.472; max 250.883; avg 220.815
+time iteration: 	284
+newton iterations:	2
+dt: 				0.0212351 days
+time: 				5.07685 days [6 JAN 2000]
+Pressure. min 253.131; max 300.284; avg 295.743
+SWAT. min 0; max 0.999937; avg 0.199922
+SGAS. min 0; max 0.22402; avg 0.121827
+RS.   min 161.472; max 250.883; avg 220.828
+time iteration: 	285
+newton iterations:	2
+dt: 				0.0331799 days
+time: 				5.11003 days [6 JAN 2000]
+Pressure. min 253.086; max 300.285; avg 295.729
+SWAT. min 0; max 0.999937; avg 0.199921
+SGAS. min 0; max 0.224068; avg 0.121835
+RS.   min 161.472; max 250.884; avg 220.849
+time iteration: 	286
+newton iterations:	5
+dt: 				0.0518435 days
+time: 				5.16187 days [6 JAN 2000]
+Pressure. min 253.018; max 300.287; avg 295.707
+SWAT. min 0; max 0.999936; avg 0.199921
+SGAS. min 0; max 0.224143; avg 0.121847
+RS.   min 161.472; max 250.886; avg 220.882
+Recalculation due to too many iterations
+New time step 0.00810055 days, old is 0.0810055
+time iteration: 	287
+newton iterations:	1
+dt: 				0.00810055 days
+time: 				5.16997 days [6 JAN 2000]
+Pressure. min 253.008; max 300.287; avg 295.704
+SWAT. min 0; max 0.999936; avg 0.199921
+SGAS. min 0; max 0.224155; avg 0.121849
+RS.   min 161.472; max 250.886; avg 220.887
+time iteration: 	288
+newton iterations:	2
+dt: 				0.0101257 days
+time: 				5.1801 days [6 JAN 2000]
+Pressure. min 252.994; max 300.288; avg 295.7
+SWAT. min 0; max 0.999936; avg 0.199921
+SGAS. min 0; max 0.224169; avg 0.121852
+RS.   min 161.472; max 250.886; avg 220.893
+time iteration: 	289
+newton iterations:	2
+dt: 				0.0158214 days
+time: 				5.19592 days [6 JAN 2000]
+Pressure. min 252.974; max 300.288; avg 295.693
+SWAT. min 0; max 0.999936; avg 0.19992
+SGAS. min 0; max 0.224192; avg 0.121855
+RS.   min 161.472; max 250.887; avg 220.903
+time iteration: 	290
+newton iterations:	3
+dt: 				0.0247209 days
+time: 				5.22064 days [6 JAN 2000]
+Pressure. min 252.942; max 300.289; avg 295.683
+SWAT. min 0; max 0.999935; avg 0.19992
+SGAS. min 0; max 0.224227; avg 0.121861
+RS.   min 161.472; max 250.887; avg 220.918
+time iteration: 	291
+newton iterations:	8
+dt: 				0.0386264 days
+time: 				5.25926 days [6 JAN 2000]
+Pressure. min 252.893; max 300.29; avg 295.667
+SWAT. min 0; max 0.999935; avg 0.19992
+SGAS. min 0; max 0.224282; avg 0.12187
+RS.   min 161.472; max 250.888; avg 220.941
+time iteration: 	292
+newton iterations:	3
+dt: 				0.0603538 days
+time: 				5.31962 days [6 JAN 2000]
+Pressure. min 252.818; max 300.292; avg 295.642
+SWAT. min 0; max 0.999934; avg 0.199919
+SGAS. min 0; max 0.224366; avg 0.121884
+RS.   min 161.472; max 250.89; avg 220.978
+time iteration: 	293
+newton iterations:	2
+dt: 				0.0943028 days
+time: 				5.41392 days [6 JAN 2000]
+Pressure. min 252.704; max 300.294; avg 295.604
+SWAT. min 0; max 0.999933; avg 0.199918
+SGAS. min 0; max 0.224496; avg 0.121906
+RS.   min 161.472; max 250.892; avg 221.034
+time iteration: 	294
+newton iterations:	2
+dt: 				0.147348 days
+time: 				5.56127 days [6 JAN 2000]
+Pressure. min 252.533; max 300.299; avg 295.545
+SWAT. min 0; max 0.999931; avg 0.199916
+SGAS. min 0; max 0.224692; avg 0.121939
+RS.   min 161.472; max 250.896; avg 221.13
+Recalculation due to too many iterations
+New time step 0.0230232 days, old is 0.230232
+time iteration: 	295
+newton iterations:	2
+dt: 				0.0230232 days
+time: 				5.58429 days [6 JAN 2000]
+Pressure. min 252.507; max 300.299; avg 295.536
+SWAT. min 0; max 0.999931; avg 0.199916
+SGAS. min 0; max 0.224722; avg 0.121944
+RS.   min 161.472; max 250.897; avg 221.146
+time iteration: 	296
+newton iterations:	2
+dt: 				0.0287789 days
+time: 				5.61307 days [6 JAN 2000]
+Pressure. min 252.474; max 300.3; avg 295.525
+SWAT. min 0; max 0.999931; avg 0.199916
+SGAS. min 0; max 0.22476; avg 0.121951
+RS.   min 161.472; max 250.897; avg 221.165
+time iteration: 	297
+newton iterations:	2
+dt: 				0.0449671 days
+time: 				5.65804 days [6 JAN 2000]
+Pressure. min 252.424; max 300.301; avg 295.507
+SWAT. min 0; max 0.99993; avg 0.199915
+SGAS. min 0; max 0.224819; avg 0.121961
+RS.   min 161.472; max 250.899; avg 221.195
+time iteration: 	298
+newton iterations:	2
+dt: 				0.0702611 days
+time: 				5.7283 days [6 JAN 2000]
+Pressure. min 252.346; max 300.303; avg 295.48
+SWAT. min 0; max 0.999929; avg 0.199915
+SGAS. min 0; max 0.22491; avg 0.121977
+RS.   min 161.472; max 250.9; avg 221.241
+Recalculation due to too many iterations
+New time step 0.0109783 days, old is 0.109783
+time iteration: 	299
+newton iterations:	2
+dt: 				0.0109783 days
+time: 				5.73928 days [6 JAN 2000]
+Pressure. min 252.334; max 300.303; avg 295.475
+SWAT. min 0; max 0.999929; avg 0.199914
+SGAS. min 0; max 0.224924; avg 0.121979
+RS.   min 161.472; max 250.901; avg 221.249
+time iteration: 	300
+newton iterations:	2
+dt: 				0.0137229 days
+time: 				5.753 days [6 JAN 2000]
+Pressure. min 252.319; max 300.304; avg 295.47
+SWAT. min 0; max 0.999929; avg 0.199914
+SGAS. min 0; max 0.224942; avg 0.121982
+RS.   min 161.472; max 250.901; avg 221.258
+time iteration: 	301
+newton iterations:	2
+dt: 				0.021442 days
+time: 				5.77444 days [6 JAN 2000]
+Pressure. min 252.296; max 300.304; avg 295.462
+SWAT. min 0; max 0.999929; avg 0.199914
+SGAS. min 0; max 0.224969; avg 0.121987
+RS.   min 161.472; max 250.901; avg 221.272
+time iteration: 	302
+newton iterations:	2
+dt: 				0.0335031 days
+time: 				5.80795 days [6 JAN 2000]
+Pressure. min 252.259; max 300.305; avg 295.448
+SWAT. min 0; max 0.999928; avg 0.199914
+SGAS. min 0; max 0.225012; avg 0.121995
+RS.   min 161.472; max 250.902; avg 221.294
+time iteration: 	303
+newton iterations:	3
+dt: 				0.0523486 days
+time: 				5.86029 days [6 JAN 2000]
+Pressure. min 252.204; max 300.307; avg 295.428
+SWAT. min 0; max 0.999928; avg 0.199913
+SGAS. min 0; max 0.225077; avg 0.122006
+RS.   min 161.472; max 250.903; avg 221.328
+time iteration: 	304
+newton iterations:	4
+dt: 				0.0801857 days
+time: 				5.94048 days [6 JAN 2000]
+Pressure. min 252.12; max 300.309; avg 295.397
+SWAT. min 0; max 0.999927; avg 0.199912
+SGAS. min 0; max 0.225177; avg 0.122024
+RS.   min 161.472; max 250.905; avg 221.382
+time iteration: 	305
+newton iterations:	4
+dt: 				0.0972775 days
+time: 				6.03776 days [7 JAN 2000]
+Pressure. min 252.021; max 300.311; avg 295.361
+SWAT. min 0; max 0.999926; avg 0.199911
+SGAS. min 0; max 0.225296; avg 0.122045
+RS.   min 161.472; max 250.908; avg 221.448
+time iteration: 	306
+newton iterations:	2
+dt: 				0.13464 days
+time: 				6.1724 days [7 JAN 2000]
+Pressure. min 251.888; max 300.315; avg 295.31
+SWAT. min 0; max 0.999924; avg 0.19991
+SGAS. min 0; max 0.225456; avg 0.122074
+RS.   min 161.472; max 250.911; avg 221.542
+time iteration: 	307
+newton iterations:	2
+dt: 				0.210375 days
+time: 				6.38277 days [7 JAN 2000]
+Pressure. min 251.691; max 300.32; avg 295.232
+SWAT. min 0; max 0.999921; avg 0.199908
+SGAS. min 0; max 0.225698; avg 0.122119
+RS.   min 161.472; max 250.915; avg 221.698
+time iteration: 	308
+newton iterations:	3
+dt: 				0.32871 days
+time: 				6.71148 days [7 JAN 2000]
+Pressure. min 251.401; max 300.327; avg 295.114
+SWAT. min 0; max 0.999918; avg 0.199905
+SGAS. min 0; max 0.226057; avg 0.122188
+RS.   min 161.472; max 250.922; avg 221.974
+time iteration: 	309
+newton iterations:	2
+dt: 				0.51361 days
+time: 				7.22509 days [8 JAN 2000]
+Pressure. min 250.988; max 300.338; avg 294.935
+SWAT. min 0; max 0.999912; avg 0.1999
+SGAS. min 0; max 0.226578; avg 0.122291
+RS.   min 161.472; max 250.932; avg 222.43
+time iteration: 	310
+newton iterations:	2
+dt: 				0.802515 days
+time: 				8.02761 days [9 JAN 2000]
+Pressure. min 250.415; max 300.353; avg 294.671
+SWAT. min 0; max 0.999902; avg 0.199892
+SGAS. min 0; max 0.227313; avg 0.122446
+RS.   min 161.453; max 250.946; avg 223.175
+time iteration: 	311
+newton iterations:	2
+dt: 				1.25393 days
+time: 				9.28154 days [10 JAN 2000]
+Pressure. min 249.65; max 300.372; avg 294.285
+SWAT. min 0; max 0.999888; avg 0.199881
+SGAS. min 0; max 0.228313; avg 0.122673
+RS.   min 161.442; max 250.963; avg 224.286
+time iteration: 	312
+newton iterations:	2
+dt: 				1.95927 days
+time: 				11.2408 days [12 JAN 2000]
+Pressure. min 248.674; max 300.396; avg 293.737
+SWAT. min 0; max 0.999866; avg 0.199866
+SGAS. min 0; max 0.229652; avg 0.123
+RS.   min 161.472; max 250.985; avg 225.835
+time iteration: 	313
+newton iterations:	3
+dt: 				3.06135 days
+time: 				14.3022 days [15 JAN 2000]
+Pressure. min 247.486; max 300.423; avg 292.98
+SWAT. min 0; max 0.99983; avg 0.199843
+SGAS. min 0; max 0.231445; avg 0.12346
+RS.   min 161.472; max 251.01; avg 226.897
+time iteration: 	314
+newton iterations:	2
+dt: 				0.697843 days
+time: 				15 days [16 JAN 2000]
+Pressure. min 247.232; max 300.429; avg 292.812
+SWAT. min 0; max 0.999822; avg 0.199838
+SGAS. min 0; max 0.231828; avg 0.123562
+RS.   min 161.472; max 251.015; avg 226.973
+---------- STATISTICS ----------
+BUILD MATRIX: 9.4% 	LINEAR SOLVER (PREC): 23.2(8.3)% 	OUTPUT: 0.0% 	RECALCULATION: 56.3%
+NI: 4.8(2.6)	LI: 5.0(1.8)
+--------------------------------------
+time iteration: 	315
+newton iterations:	3
+dt: 				4.78336 days
+time: 				19.7834 days [20 JAN 2000]
+Pressure. min 245.914; max 300.458; avg 291.82
+SWAT. min 0; max 0.999766; avg 0.199807
+SGAS. min 0; max 0.23381; avg 0.124176
+RS.   min 161.472; max 251.041; avg 227.322
+time iteration: 	316
+newton iterations:	3
+dt: 				7.19493 days
+time: 				26.9783 days [27 JAN 2000]
+Pressure. min 244.483; max 300.481; avg 290.568
+SWAT. min 0; max 0.999668; avg 0.199764
+SGAS. min 0; max 0.23597; avg 0.124961
+RS.   min 161.472; max 251.062; avg 226.457
+time iteration: 	317
+newton iterations:	2
+dt: 				3.02171 days
+time: 				30 days [31 JAN 2000]
+Pressure. min 243.958; max 300.487; avg 290.079
+SWAT. min 0; max 0.999625; avg 0.199747
+SGAS. min 0; max 0.236762; avg 0.12527
+RS.   min 161.472; max 251.067; avg 226.111
+---------- STATISTICS ----------
+BUILD MATRIX: 9.4% 	LINEAR SOLVER (PREC): 23.6(8.4)% 	OUTPUT: 0.0% 	RECALCULATION: 55.8%
+NI: 4.7(2.6)	LI: 5.0(1.9)
+--------------------------------------
+time iteration: 	318
+newton iterations:	3
+dt: 				15 days
+time: 				45 days [15 FEB 2000]
+Pressure. min 242.168; max 300.405; avg 288.149
+SWAT. min 0; max 0.999369; avg 0.19967
+SGAS. min 0; max 0.239359; avg 0.126497
+RS.   min 161.472; max 250.993; avg 224.733
+---------- STATISTICS ----------
+BUILD MATRIX: 9.4% 	LINEAR SOLVER (PREC): 23.8(8.4)% 	OUTPUT: 0.0% 	RECALCULATION: 55.6%
+NI: 4.7(2.6)	LI: 5.0(1.9)
+--------------------------------------
+time iteration: 	319
+newton iterations:	3
+dt: 				15 days
+time: 				60 days [1 MAR 2000]
+Pressure. min 240.819; max 300.191; avg 286.528
+SWAT. min 0; max 0.999065; avg 0.199597
+SGAS. min 0; max 0.241235; avg 0.127535
+RS.   min 161.472; max 250.798; avg 223.573
+---------- STATISTICS ----------
+BUILD MATRIX: 9.4% 	LINEAR SOLVER (PREC): 23.9(8.5)% 	OUTPUT: 0.0% 	RECALCULATION: 55.4%
+NI: 4.7(2.6)	LI: 5.0(1.9)
+--------------------------------------
+time iteration: 	320
+newton iterations:	2
+dt: 				15 days
+time: 				75 days [16 MAR 2000]
+Pressure. min 239.736; max 299.846; avg 285.111
+SWAT. min 0; max 0.99872; avg 0.199526
+SGAS. min 0; max 0.242675; avg 0.128445
+RS.   min 161.472; max 250.483; avg 222.556
+---------- STATISTICS ----------
+BUILD MATRIX: 9.4% 	LINEAR SOLVER (PREC): 24.0(8.5)% 	OUTPUT: 0.1% 	RECALCULATION: 55.3%
+NI: 4.7(2.6)	LI: 5.0(1.9)
+--------------------------------------
+time iteration: 	321
+newton iterations:	2
+dt: 				15 days
+time: 				90 days [31 MAR 2000]
+Pressure. min 238.824; max 299.377; avg 283.833
+SWAT. min 0; max 0.99834; avg 0.199456
+SGAS. min 0; max 0.243839; avg 0.129267
+RS.   min 161.472; max 250.057; avg 221.638
+---------- STATISTICS ----------
+BUILD MATRIX: 9.4% 	LINEAR SOLVER (PREC): 24.1(8.5)% 	OUTPUT: 0.1% 	RECALCULATION: 55.2%
+NI: 4.7(2.6)	LI: 5.0(1.9)
+--------------------------------------
+time iteration: 	322
+newton iterations:	3
+dt: 				15 days
+time: 				105 days [15 APR 2000]
+Pressure. min 238.029; max 298.801; avg 282.653
+SWAT. min 0; max 0.997931; avg 0.199386
+SGAS. min 0; max 0.244821; avg 0.130025
+RS.   min 161.472; max 249.532; avg 220.79
+---------- STATISTICS ----------
+BUILD MATRIX: 9.4% 	LINEAR SOLVER (PREC): 24.3(8.5)% 	OUTPUT: 0.1% 	RECALCULATION: 55.0%
+NI: 4.7(2.6)	LI: 5.0(1.9)
+--------------------------------------
+time iteration: 	323
+newton iterations:	2
+dt: 				15 days
+time: 				120 days [30 APR 2000]
+Pressure. min 237.315; max 298.136; avg 281.544
+SWAT. min 0; max 0.997498; avg 0.199316
+SGAS. min 0; max 0.245676; avg 0.130738
+RS.   min 161.472; max 248.926; avg 219.993
+---------- STATISTICS ----------
+BUILD MATRIX: 9.4% 	LINEAR SOLVER (PREC): 24.4(8.5)% 	OUTPUT: 0.1% 	RECALCULATION: 54.9%
+NI: 4.7(2.6)	LI: 5.0(1.9)
+--------------------------------------
+time iteration: 	324
+newton iterations:	3
+dt: 				15 days
+time: 				135 days [15 MAY 2000]
+Pressure. min 236.653; max 297.398; avg 280.49
+SWAT. min 0; max 0.997048; avg 0.199245
+SGAS. min 0; max 0.246441; avg 0.131417
+RS.   min 161.472; max 248.254; avg 219.236
+---------- STATISTICS ----------
+BUILD MATRIX: 9.4% 	LINEAR SOLVER (PREC): 24.5(8.6)% 	OUTPUT: 0.1% 	RECALCULATION: 54.7%
+NI: 4.7(2.6)	LI: 5.0(1.9)
+--------------------------------------
+time iteration: 	325
+newton iterations:	2
+dt: 				15 days
+time: 				150 days [30 MAY 2000]
+Pressure. min 236.046; max 296.603; avg 279.478
+SWAT. min 0; max 0.996583; avg 0.199174
+SGAS. min 0; max 0.24714; avg 0.132068
+RS.   min 161.472; max 247.53; avg 218.51
+---------- STATISTICS ----------
+BUILD MATRIX: 9.4% 	LINEAR SOLVER (PREC): 24.7(8.6)% 	OUTPUT: 0.1% 	RECALCULATION: 54.6%
+NI: 4.7(2.6)	LI: 5.0(1.9)
+--------------------------------------
+time iteration: 	326
+newton iterations:	2
+dt: 				15 days
+time: 				165 days [14 JUN 2000]
+Pressure. min 235.478; max 295.763; avg 278.502
+SWAT. min 0; max 0.996108; avg 0.199102
+SGAS. min 0; max 0.247787; avg 0.132697
+RS.   min 161.472; max 246.765; avg 217.809
+---------- STATISTICS ----------
+BUILD MATRIX: 9.4% 	LINEAR SOLVER (PREC): 24.8(8.6)% 	OUTPUT: 0.1% 	RECALCULATION: 54.4%
+NI: 4.7(2.6)	LI: 5.0(1.9)
+--------------------------------------
+time iteration: 	327
+newton iterations:	2
+dt: 				15 days
+time: 				180 days [29 JUN 2000]
+Pressure. min 234.942; max 294.89; avg 277.555
+SWAT. min 0; max 0.995625; avg 0.19903
+SGAS. min 0; max 0.248394; avg 0.133308
+RS.   min 161.472; max 245.97; avg 217.13
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 24.9(8.6)% 	OUTPUT: 0.2% 	RECALCULATION: 54.3%
+NI: 4.7(2.6)	LI: 5.0(2.0)
+--------------------------------------
+time iteration: 	328
+newton iterations:	2
+dt: 				15 days
+time: 				195 days [14 JUL 2000]
+Pressure. min 234.431; max 293.993; avg 276.632
+SWAT. min 0; max 0.995136; avg 0.198957
+SGAS. min 0; max 0.248969; avg 0.133903
+RS.   min 161.472; max 245.152; avg 216.469
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 25.0(8.6)% 	OUTPUT: 0.2% 	RECALCULATION: 54.2%
+NI: 4.7(2.6)	LI: 5.0(2.0)
+--------------------------------------
+time iteration: 	329
+newton iterations:	2
+dt: 				15 days
+time: 				210 days [29 JUL 2000]
+Pressure. min 233.942; max 293.077; avg 275.731
+SWAT. min 0; max 0.994777; avg 0.198883
+SGAS. min 0; max 0.249519; avg 0.134485
+RS.   min 161.472; max 244.319; avg 215.823
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 25.1(8.6)% 	OUTPUT: 0.2% 	RECALCULATION: 54.1%
+NI: 4.7(2.6)	LI: 5.0(2.0)
+--------------------------------------
+time iteration: 	330
+newton iterations:	3
+dt: 				15 days
+time: 				225 days [13 AUG 2000]
+Pressure. min 233.471; max 292.151; avg 274.849
+SWAT. min 0; max 0.994443; avg 0.19881
+SGAS. min 0; max 0.250048; avg 0.135055
+RS.   min 161.472; max 243.474; avg 215.193
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 25.2(8.7)% 	OUTPUT: 0.2% 	RECALCULATION: 53.9%
+NI: 4.6(2.6)	LI: 5.0(2.0)
+--------------------------------------
+time iteration: 	331
+newton iterations:	3
+dt: 				15 days
+time: 				240 days [28 AUG 2000]
+Pressure. min 233.016; max 291.217; avg 273.983
+SWAT. min 0; max 0.994108; avg 0.198736
+SGAS. min 0; max 0.25056; avg 0.135615
+RS.   min 161.472; max 242.624; avg 214.574
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 25.4(8.7)% 	OUTPUT: 0.2% 	RECALCULATION: 53.7%
+NI: 4.6(2.6)	LI: 5.0(2.0)
+--------------------------------------
+time iteration: 	332
+newton iterations:	3
+dt: 				15 days
+time: 				255 days [12 SEP 2000]
+Pressure. min 232.574; max 290.28; avg 273.134
+SWAT. min 0; max 0.993772; avg 0.198661
+SGAS. min 0; max 0.251058; avg 0.136165
+RS.   min 161.472; max 241.771; avg 213.967
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 25.5(8.7)% 	OUTPUT: 0.2% 	RECALCULATION: 53.6%
+NI: 4.6(2.6)	LI: 5.1(2.0)
+--------------------------------------
+time iteration: 	333
+newton iterations:	3
+dt: 				15 days
+time: 				270 days [27 SEP 2000]
+Pressure. min 232.145; max 289.343; avg 272.3
+SWAT. min 0; max 0.993435; avg 0.198587
+SGAS. min 0; max 0.251544; avg 0.136706
+RS.   min 161.472; max 240.917; avg 213.372
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 25.7(8.7)% 	OUTPUT: 0.2% 	RECALCULATION: 53.4%
+NI: 4.6(2.6)	LI: 5.1(2.0)
+--------------------------------------
+time iteration: 	334
+newton iterations:	3
+dt: 				15 days
+time: 				285 days [12 OCT 2000]
+Pressure. min 231.728; max 288.408; avg 271.479
+SWAT. min 0; max 0.993098; avg 0.198512
+SGAS. min 0; max 0.252019; avg 0.137238
+RS.   min 161.472; max 240.065; avg 212.787
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 25.8(8.8)% 	OUTPUT: 0.2% 	RECALCULATION: 53.2%
+NI: 4.6(2.6)	LI: 5.1(2.0)
+--------------------------------------
+time iteration: 	335
+newton iterations:	2
+dt: 				15 days
+time: 				300 days [27 OCT 2000]
+Pressure. min 231.321; max 287.477; avg 270.671
+SWAT. min 0; max 0.992761; avg 0.198438
+SGAS. min 0; max 0.252485; avg 0.137762
+RS.   min 161.472; max 239.217; avg 212.212
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 26.0(8.8)% 	OUTPUT: 0.2% 	RECALCULATION: 53.1%
+NI: 4.6(2.6)	LI: 5.1(2.0)
+--------------------------------------
+time iteration: 	336
+newton iterations:	2
+dt: 				15 days
+time: 				315 days [11 NOV 2000]
+Pressure. min 230.922; max 286.551; avg 269.876
+SWAT. min 0; max 0.992423; avg 0.198363
+SGAS. min 0; max 0.252943; avg 0.138279
+RS.   min 161.472; max 238.373; avg 211.646
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 26.0(8.8)% 	OUTPUT: 0.2% 	RECALCULATION: 53.0%
+NI: 4.6(2.6)	LI: 5.1(2.0)
+--------------------------------------
+time iteration: 	337
+newton iterations:	3
+dt: 				15 days
+time: 				330 days [26 NOV 2000]
+Pressure. min 230.533; max 285.631; avg 269.091
+SWAT. min 0; max 0.992084; avg 0.198288
+SGAS. min 0; max 0.253394; avg 0.138789
+RS.   min 161.472; max 237.536; avg 211.089
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 26.2(8.8)% 	OUTPUT: 0.2% 	RECALCULATION: 52.8%
+NI: 4.6(2.6)	LI: 5.1(2.0)
+--------------------------------------
+time iteration: 	338
+newton iterations:	3
+dt: 				15 days
+time: 				345 days [11 DEC 2000]
+Pressure. min 230.15; max 284.718; avg 268.317
+SWAT. min 0; max 0.991746; avg 0.198213
+SGAS. min 0; max 0.25384; avg 0.139294
+RS.   min 161.472; max 236.704; avg 210.539
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 26.3(8.8)% 	OUTPUT: 0.3% 	RECALCULATION: 52.7%
+NI: 4.6(2.6)	LI: 5.1(2.1)
+--------------------------------------
+time iteration: 	339
+newton iterations:	3
+dt: 				15 days
+time: 				360 days [26 DEC 2000]
+Pressure. min 229.775; max 283.813; avg 267.553
+SWAT. min 0; max 0.991407; avg 0.198139
+SGAS. min 0; max 0.254281; avg 0.139792
+RS.   min 161.472; max 235.88; avg 209.998
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 26.5(8.9)% 	OUTPUT: 0.3% 	RECALCULATION: 52.5%
+NI: 4.6(2.6)	LI: 5.1(2.1)
+--------------------------------------
+time iteration: 	340
+newton iterations:	3
+dt: 				15 days
+time: 				375 days [10 JAN 2001]
+Pressure. min 229.407; max 282.917; avg 266.798
+SWAT. min 0; max 0.991069; avg 0.198064
+SGAS. min 0; max 0.254718; avg 0.140284
+RS.   min 161.472; max 235.063; avg 209.464
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 26.6(8.9)% 	OUTPUT: 0.3% 	RECALCULATION: 52.3%
+NI: 4.6(2.6)	LI: 5.1(2.1)
+--------------------------------------
+time iteration: 	341
+newton iterations:	3
+dt: 				15 days
+time: 				390 days [25 JAN 2001]
+Pressure. min 229.044; max 282.028; avg 266.053
+SWAT. min 0; max 0.990731; avg 0.19799
+SGAS. min 0; max 0.25515; avg 0.140772
+RS.   min 161.472; max 234.254; avg 208.937
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 26.7(8.9)% 	OUTPUT: 0.3% 	RECALCULATION: 52.2%
+NI: 4.6(2.6)	LI: 5.1(2.1)
+--------------------------------------
+time iteration: 	342
+newton iterations:	3
+dt: 				15 days
+time: 				405 days [9 FEB 2001]
+Pressure. min 228.688; max 281.148; avg 265.316
+SWAT. min 0; max 0.990392; avg 0.197916
+SGAS. min 0; max 0.25558; avg 0.141255
+RS.   min 161.472; max 233.452; avg 208.417
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 26.9(8.9)% 	OUTPUT: 0.3% 	RECALCULATION: 52.0%
+NI: 4.6(2.6)	LI: 5.1(2.1)
+--------------------------------------
+time iteration: 	343
+newton iterations:	3
+dt: 				15 days
+time: 				420 days [24 FEB 2001]
+Pressure. min 228.335; max 280.275; avg 264.587
+SWAT. min 0; max 0.990054; avg 0.197842
+SGAS. min 0; max 0.256006; avg 0.141734
+RS.   min 161.472; max 232.657; avg 207.903
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 27.0(8.9)% 	OUTPUT: 0.3% 	RECALCULATION: 51.9%
+NI: 4.6(2.6)	LI: 5.1(2.1)
+--------------------------------------
+time iteration: 	344
+newton iterations:	3
+dt: 				15 days
+time: 				435 days [11 MAR 2001]
+Pressure. min 227.986; max 279.411; avg 263.866
+SWAT. min 0; max 0.989716; avg 0.197768
+SGAS. min 0; max 0.25643; avg 0.142209
+RS.   min 161.472; max 231.87; avg 207.396
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 27.1(9.0)% 	OUTPUT: 0.3% 	RECALCULATION: 51.7%
+NI: 4.6(2.6)	LI: 5.1(2.1)
+--------------------------------------
+time iteration: 	345
+newton iterations:	3
+dt: 				15 days
+time: 				450 days [26 MAR 2001]
+Pressure. min 227.648; max 278.554; avg 263.153
+SWAT. min 0; max 0.989378; avg 0.197695
+SGAS. min 0; max 0.25685; avg 0.142681
+RS.   min 161.472; max 231.09; avg 206.895
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 27.2(9.0)% 	OUTPUT: 0.3% 	RECALCULATION: 51.6%
+NI: 4.6(2.6)	LI: 5.1(2.1)
+--------------------------------------
+time iteration: 	346
+newton iterations:	3
+dt: 				15 days
+time: 				465 days [10 APR 2001]
+Pressure. min 227.314; max 277.705; avg 262.448
+SWAT. min 0; max 0.989039; avg 0.197622
+SGAS. min 0; max 0.257268; avg 0.143148
+RS.   min 161.472; max 230.316; avg 206.399
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 27.4(9.0)% 	OUTPUT: 0.3% 	RECALCULATION: 51.4%
+NI: 4.6(2.6)	LI: 5.1(2.1)
+--------------------------------------
+time iteration: 	347
+newton iterations:	3
+dt: 				15 days
+time: 				480 days [25 APR 2001]
+Pressure. min 226.989; max 276.861; avg 261.75
+SWAT. min 0; max 0.988701; avg 0.197549
+SGAS. min 0; max 0.257682; avg 0.143612
+RS.   min 161.472; max 229.547; avg 205.909
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 27.5(9.0)% 	OUTPUT: 0.3% 	RECALCULATION: 51.3%
+NI: 4.6(2.6)	LI: 5.1(2.1)
+--------------------------------------
+time iteration: 	348
+newton iterations:	3
+dt: 				15 days
+time: 				495 days [10 MAY 2001]
+Pressure. min 226.668; max 276.024; avg 261.06
+SWAT. min 0; max 0.988363; avg 0.197477
+SGAS. min 0; max 0.258093; avg 0.144072
+RS.   min 161.472; max 228.784; avg 205.424
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 27.6(9.1)% 	OUTPUT: 0.3% 	RECALCULATION: 51.1%
+NI: 4.6(2.6)	LI: 5.1(2.1)
+--------------------------------------
+time iteration: 	349
+newton iterations:	3
+dt: 				15 days
+time: 				510 days [25 MAY 2001]
+Pressure. min 226.354; max 275.19; avg 260.376
+SWAT. min 0; max 0.988024; avg 0.197405
+SGAS. min 0; max 0.258502; avg 0.144529
+RS.   min 161.472; max 228.025; avg 204.944
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 27.8(9.1)% 	OUTPUT: 0.3% 	RECALCULATION: 51.0%
+NI: 4.6(2.7)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	350
+newton iterations:	3
+dt: 				15 days
+time: 				525 days [9 JUN 2001]
+Pressure. min 226.043; max 274.355; avg 259.697
+SWAT. min 0; max 0.987685; avg 0.197333
+SGAS. min 0; max 0.258908; avg 0.144982
+RS.   min 161.472; max 227.265; avg 204.468
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 27.9(9.1)% 	OUTPUT: 0.4% 	RECALCULATION: 50.8%
+NI: 4.5(2.7)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	351
+newton iterations:	2
+dt: 				15 days
+time: 				540 days [24 JUN 2001]
+Pressure. min 225.744; max 273.51; avg 259.025
+SWAT. min 0; max 0.987346; avg 0.197261
+SGAS. min 0; max 0.259312; avg 0.145432
+RS.   min 161.472; max 226.495; avg 203.997
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 28.0(9.1)% 	OUTPUT: 0.4% 	RECALCULATION: 50.7%
+NI: 4.5(2.6)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	352
+newton iterations:	3
+dt: 				15 days
+time: 				555 days [9 JUL 2001]
+Pressure. min 225.454; max 272.635; avg 258.361
+SWAT. min 0; max 0.987007; avg 0.19719
+SGAS. min 0; max 0.259712; avg 0.145879
+RS.   min 161.472; max 225.709; avg 203.53
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 28.1(9.1)% 	OUTPUT: 0.4% 	RECALCULATION: 50.6%
+NI: 4.5(2.7)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	353
+newton iterations:	2
+dt: 				15 days
+time: 				570 days [24 JUL 2001]
+Pressure. min 225.17; max 271.78; avg 257.704
+SWAT. min 0; max 0.986668; avg 0.197119
+SGAS. min 0; max 0.26011; avg 0.14632
+RS.   min 161.472; max 224.948; avg 203.07
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 28.2(9.2)% 	OUTPUT: 0.4% 	RECALCULATION: 50.5%
+NI: 4.5(2.6)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	354
+newton iterations:	2
+dt: 				15 days
+time: 				585 days [8 AUG 2001]
+Pressure. min 224.883; max 270.951; avg 257.055
+SWAT. min 0; max 0.986329; avg 0.197048
+SGAS. min 0; max 0.260506; avg 0.146754
+RS.   min 161.472; max 224.21; avg 202.615
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 28.3(9.2)% 	OUTPUT: 0.4% 	RECALCULATION: 50.4%
+NI: 4.5(2.6)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	355
+newton iterations:	2
+dt: 				15 days
+time: 				600 days [23 AUG 2001]
+Pressure. min 224.609; max 270.14; avg 256.415
+SWAT. min 0; max 0.98599; avg 0.196977
+SGAS. min 0; max 0.260899; avg 0.147181
+RS.   min 161.472; max 223.489; avg 202.166
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 28.4(9.2)% 	OUTPUT: 0.4% 	RECALCULATION: 50.2%
+NI: 4.5(2.6)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	356
+newton iterations:	2
+dt: 				15 days
+time: 				615 days [7 SEP 2001]
+Pressure. min 224.332; max 269.345; avg 255.784
+SWAT. min 0; max 0.985652; avg 0.196907
+SGAS. min 0; max 0.261289; avg 0.147602
+RS.   min 161.472; max 222.782; avg 201.723
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 28.5(9.2)% 	OUTPUT: 0.4% 	RECALCULATION: 50.1%
+NI: 4.5(2.6)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	357
+newton iterations:	2
+dt: 				15 days
+time: 				630 days [22 SEP 2001]
+Pressure. min 224.06; max 268.565; avg 255.16
+SWAT. min 0; max 0.985315; avg 0.196837
+SGAS. min 0; max 0.261676; avg 0.148016
+RS.   min 161.472; max 222.087; avg 201.287
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 28.6(9.2)% 	OUTPUT: 0.4% 	RECALCULATION: 50.0%
+NI: 4.5(2.6)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	358
+newton iterations:	2
+dt: 				15 days
+time: 				645 days [7 OCT 2001]
+Pressure. min 223.788; max 267.798; avg 254.546
+SWAT. min 0; max 0.984978; avg 0.196767
+SGAS. min 0; max 0.26206; avg 0.148425
+RS.   min 161.472; max 221.405; avg 200.856
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 28.7(9.2)% 	OUTPUT: 0.4% 	RECALCULATION: 49.9%
+NI: 4.5(2.6)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	359
+newton iterations:	2
+dt: 				15 days
+time: 				660 days [22 OCT 2001]
+Pressure. min 223.52; max 267.043; avg 253.94
+SWAT. min 0; max 0.984642; avg 0.196697
+SGAS. min 0; max 0.262441; avg 0.148827
+RS.   min 161.472; max 220.733; avg 200.431
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 28.8(9.2)% 	OUTPUT: 0.5% 	RECALCULATION: 49.8%
+NI: 4.5(2.6)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	360
+newton iterations:	2
+dt: 				15 days
+time: 				675 days [6 NOV 2001]
+Pressure. min 223.26; max 266.3; avg 253.341
+SWAT. min 0; max 0.984306; avg 0.196628
+SGAS. min 0; max 0.26282; avg 0.149222
+RS.   min 161.472; max 220.072; avg 200.012
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 28.8(9.2)% 	OUTPUT: 0.5% 	RECALCULATION: 49.7%
+NI: 4.5(2.6)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	361
+newton iterations:	2
+dt: 				15 days
+time: 				690 days [21 NOV 2001]
+Pressure. min 223.006; max 265.569; avg 252.751
+SWAT. min 0; max 0.983972; avg 0.196559
+SGAS. min 0; max 0.263194; avg 0.149611
+RS.   min 161.472; max 219.421; avg 199.599
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 28.9(9.3)% 	OUTPUT: 0.5% 	RECALCULATION: 49.6%
+NI: 4.5(2.6)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	362
+newton iterations:	2
+dt: 				15 days
+time: 				705 days [6 DEC 2001]
+Pressure. min 222.751; max 264.848; avg 252.17
+SWAT. min 0; max 0.983638; avg 0.19649
+SGAS. min 0; max 0.263565; avg 0.149996
+RS.   min 161.472; max 218.78; avg 199.191
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 29.0(9.3)% 	OUTPUT: 0.5% 	RECALCULATION: 49.5%
+NI: 4.5(2.6)	LI: 5.1(2.2)
+--------------------------------------
+time iteration: 	363
+newton iterations:	2
+dt: 				15 days
+time: 				720 days [21 DEC 2001]
+Pressure. min 222.499; max 264.138; avg 251.595
+SWAT. min 0; max 0.983305; avg 0.196422
+SGAS. min 0; max 0.263933; avg 0.150374
+RS.   min 161.472; max 218.148; avg 198.79
+---------- STATISTICS ----------
+BUILD MATRIX: 9.5% 	LINEAR SOLVER (PREC): 29.1(9.3)% 	OUTPUT: 0.5% 	RECALCULATION: 49.4%
+NI: 4.5(2.6)	LI: 5.2(2.2)
+--------------------------------------
+Done simulation in 84.6372 sec.

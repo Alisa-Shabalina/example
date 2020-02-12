@@ -4,8 +4,8 @@
     //{
     //  "ValueName": "STRESS_MIN",
     //  "VaryType": "min_max_values",
-    //  "min": [ 1.5e+7, 3e+7, 1 ],
-    //  "max": [ 2.5e+7, 4e+7, 1 ]
+    //  "min": [ 0.5e+7, 4e+7, 1 ],
+    //  "max": [ 1.5e+7, 5e+7, 1 ]
     //},
     
     //{
@@ -18,10 +18,10 @@
     //{
     //  "ValueName": "YOUNG_MODULUS",
     //  "VaryType": "min_max_values",
-    //  "min": [ 10e9, 50e9, 1 ],
-    //  "max": [ 20e9, 60e9, 1 ]
+    //  "min": [ 1e9, 50e9, 1 ],
+    //  "max": [ 10e9, 60e9, 1 ]
     //},
-    
+    //
     //{
     //  "ValueName": "FLUID_LOSS",
     //  "VaryType": "coef_lin_trans",
@@ -29,19 +29,52 @@
     //  "b": [ 0, 0, 0 ]
     //}
 	
-	{
-	  "ValueName": "PROPANT_MASS",
-	  "VaryType": "coef_lin_trans",
-	  "k": [ 0.001, 10, 1 ],
-	  "b": [ 0, 0, 0 ]
-    },
+	//{
+	//  "ValueName": "PROPANT_MASS",
+	//  "ValueType": "Continious",
+	//  "VaryType": "coef_lin_trans",
+	//  "k": [ 0.01, 10, 1 ],
+	//  "b": [ 0, 0, 0 ]
+    //},
+	//
+	//{
+	//  "ValueName": "SLURRY_VOLUME",
+	//  "ValueType": "Continious",
+	//  "Relation": "TIME",
+	//  "VaryType": "coef_lin_trans",
+	//  "k": [ 0.01, 5, 1 ],
+	//  "b": [ 0, 0, 0 ]
+    //},
+	
+	//{
+	//  "ValueName" : "PROPANT_TYPE",
+	//  "ValueType" : "Categorical", 
+	//  "Names" : ["FP1630_", "FP3050_", "FPR1014", "FP_1218", "FP_1620", "FP_2040"]
+	//},
 	
 	{
-	  "ValueName": "SLURRY_RATE",
-	  "Relation": "SLURRY_VOLUME",
+	  "ValueName": "SLURRY_VOLUME",
+	  "ValueType": "Continious",
+	  "Relation": "TIME",
 	  "VaryType": "coef_lin_trans",
-	  "k": [ 0.001, 5, 1 ],
+	  "k": [ 0.01, 5, 1 ],
 	  "b": [ 0, 0, 0 ]
-    }
+	},
+
+	{
+      "ValueName": "PROPANT_MASS",
+      "ValueType": "Continious",
+      "VaryType": "coef_lin_trans",
+      "k": [ 0.01, 10, 1 ],
+      "b": [ 0, 0, 0 ]
+    },
+
+	//{
+	//  "ValueName": "TIME",
+	//  "Relation": "SLURRY_VOLUME",
+	//  "VaryType": "coef_lin_trans",
+	//  "k": [ 0.001, 10, 1 ],
+	//  "b": [ 0.001, 5, 1 ]
+    //}
   ]
 }

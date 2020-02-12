@@ -2,6 +2,9 @@
 
 #include "SolverResults.h"
 #include <string>
+#include <filesystem>
+#include <iostream>
+#include <fstream>
 
 class Solver {
 public:

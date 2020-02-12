@@ -7,45 +7,80 @@ void SolverResults::ReadParamsFromTxt(const std::string& path) {
 		//cout << line << endl;
 		std::istringstream iss(line);
 		while (iss) {
-			double time, one, two, three, four, five, six, seven;
+			double tmp1, tmp2;
+			std::vector<double> temp;
+			double time, wopt, wopr, wgpt, wgpr, wwpt, wwpr;
 
 			iss >> time;
-			iss.ignore(1);
+			//iss.ignore(1);
 			Time.push_back(time);
+			//iss.ignore(1);
 
-			iss >> one;
+			iss >> wopt;
 			iss.ignore(1);
-			WOPT.push_back(one);
+			WOPT.push_back(wopt);
+			//iss.ignore(1);
+			//iss.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //игнорим все до конца строки
+			iss >> wopr;
+			iss.ignore(1);
+			WOPR.push_back(wopr);
+			//iss.ignore(1);
+			//
+			iss >> wgpt;
+			iss.ignore(1);
+			WGPT.push_back(wgpt);
+			//iss.ignore(1);
+			//
+			iss >> wgpr;
+			iss.ignore(1);
+			WGPR.push_back(wgpr);
+			//iss.ignore(1);
 
-			iss >> two;
+			//убираем мусор
+			iss >> tmp1;
 			iss.ignore(1);
-			WOPR.push_back(two);
-
-			iss >> three;
+			temp.push_back(tmp1);
+			iss >> tmp2;
 			iss.ignore(1);
-			WWPT.push_back(three);
-
-			iss >> four;
+			temp.push_back(tmp2);
+			//
+			iss >> wwpt;
 			iss.ignore(1);
-			WWPR.push_back(four);
-
-			iss >> five;
+			WWPT.push_back(wwpt);
+			
+			iss >> wwpr;
 			iss.ignore(1);
-			WWIT.push_back(five);
-
-			iss >> six;
+			WWPR.push_back(wwpr);
+			//iss.ignore(1);
+			iss.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			iss.ignore(1);
-			WWIR.push_back(six);
-
-			iss >> seven;
-			iss.ignore(1);
-			WBHP.push_back(seven);
+			//
+			//iss >> four;
+			//iss.ignore(1);
+			//WWPR.push_back(four);
+			//
+			//iss >> five;
+			//iss.ignore(1);
+			//WWIT.push_back(five);
+			//
+			//iss >> six;
+			//iss.ignore(1);
+			//WWIR.push_back(six);
+			//
+			//iss >> seven;
+			//iss.ignore(1);
+			//WBHP.push_back(seven);
 
 		}
 	}
-	//Time.erase(begin(Time));
-	//WOPT.erase(begin(WOPT));
-	//WOPR.erase(begin(WOPR));
+
+	Time.erase(begin(Time));
+	WOPT.erase(begin(WOPT));
+	WOPR.erase(begin(WOPR));
+	WGPT.erase(begin(WGPT));
+	WGPR.erase(begin(WGPR));
+	WWPT.erase(begin(WWPT));
+	WWPR.erase(begin(WWPR));
 
 }
 

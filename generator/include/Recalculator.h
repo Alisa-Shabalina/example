@@ -10,10 +10,14 @@
 
 class Recalculator {
 public:
-	Recalculator(std::vector<VariableValue> values, Json::Value& base_file) : Values(values), BaseFile(base_file) {}
+	Recalculator(std::vector<std::shared_ptr<VariableValue>> values, Json::Value& base_file) 
+		: Values(values), BaseFile(base_file) 
+	{
+	}
+
 	Json::Value Recalculate(const std::map<ValueName, std::vector<double>>& point);
 private:
-	std::vector<VariableValue> Values;
+	std::vector<std::shared_ptr<VariableValue>> Values;
 	Json::Value BaseFile;
 
 	std::vector<double> GetValuesByKey(Json::Value val, const int& key);

@@ -1,0 +1,47 @@
+{
+  "VariableValue": [
+
+    {
+      "ValueName": "STRESS_MIN",
+      "VaryType": "min_max_values",
+      "min": [ 1.5e+7, 3e+7, 1 ],
+      "max": [ 2.5e+7, 4e+7, 1 ]
+    },
+    
+    //{
+    //  "ValueName": "POISSON_RATIO",
+    //  "VaryType": "min_max_values",
+    //  "min": [ 0.1, 0.15, 1 ],
+    //  "max": [ 0.4, 0.5, 1 ]
+    //},
+    
+    {
+      "ValueName": "YOUNG_MODULUS",
+      "VaryType": "min_max_values",
+      "min": [ 10e9, 50e9, 1 ],
+      "max": [ 20e9, 60e9, 1 ]
+    },
+    
+    {
+      "ValueName": "FLUID_LOSS",
+      "VaryType": "coef_lin_trans",
+      "k": [ 0.001, 10, 1 ],
+      "b": [ 0, 0, 0 ]
+    }
+	
+	//{
+	//  "ValueName": "PROPANT_MASS",
+	//  "VaryType": "coef_lin_trans",
+	//  "k": [ 0.001, 10, 1 ],
+	//  "b": [ 0, 0, 0 ]
+    //},
+	//
+	//{
+	//  "ValueName": "SLURRY_RATE",
+	//  "Relation": "SLURRY_VOLUME",
+	//  "VaryType": "coef_lin_trans",
+	//  "k": [ 0.001, 5, 1 ],
+	//  "b": [ 0, 0, 0 ]
+    //}
+  ]
+}

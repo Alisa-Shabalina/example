@@ -14,9 +14,12 @@ class Parser {
 public:
 	Parser(Json::Value doc) : Doc(doc) {}
 
-	std::vector<VariableValue> ReadVariableValues();
+	std::vector<std::shared_ptr<VariableValue>> ReadVariableValues();
 	std::map<std::string, double> ReadRealValues();
 	std::map<std::string, double> ReadRestrictions();
+	std::map<std::string, std::string> ReadPropantBase();
+	std::map<std::string, std::string> ReadFluidBase();
+
 private:
 	Json::Value Doc;
 
